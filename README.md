@@ -8,8 +8,8 @@
 
 
 
-id | title | difficulty | 注释
+id | 题目 | 难度 | 注释
 ---|---|---| ---|
-row 1 col 1 | row 1 col 2| row 1 col 2| row 1 col 2
-row 2 col 1 | row 2 col 2| row 2 col 2| row 2 col 2
+001 | [两数之和]()| 简单| 
+007 | [整数反转]()| 简单| 
 
