@@ -41,8 +41,9 @@
 
 # SQL
 # 主要是left join的问题
+# LEFT OUTER JOIN 接受左边的所有表，注意 这是一个外部连接
 """
 # Write your MySQL query statement below
-SELECT FirstName, LastName, City, State FROM Person LEFT JOIN Address on Person.PersonId = Address.PersonId
+SELECT FirstName, LastName, City, State FROM Person LEFT OUTER JOIN Address on Person.PersonId = Address.PersonId
 
 """
