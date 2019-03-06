@@ -1,15 +1,11 @@
 # python_leetcode
 
-
-
-
-还在陆续刷题中。。
+还在陆续刷题中，争取每天都更新
 ---
 
 
-
-
-
+算法
+---
 id | 题目 | 难度 | 注释
 ---|---|---| ---|
 001 | [两数之和](https://github.com/fank-cd/python_leetcode/blob/master/001-two%20sum.py)| 简单| 
@@ -21,7 +17,28 @@ id | 题目 | 难度 | 注释
 019 | [删除链表的倒数第N个节点](https://github.com/fank-cd/python_leetcode/blob/master/019-Remove%20Nth%20Node%20From%20End%20of%20List.py)| 中等| 
 020 | [有效的括号](https://github.com/fank-cd/python_leetcode/blob/master/020-Valid%20Parentheses.py)| 简单| 
 021 | [合并两个有序链表](https://github.com/fank-cd/python_leetcode/blob/master/021-Merge%20Two%20Sorted%20Lists.py)| 简单| 
+026 | [删除排序数组中的重复项](https://github.com/fank-cd/python_leetcode/blob/master/026-Remove%20Duplicates%20from%20Sorted%20Array.py)| 简单| 
+027 | [移除元素](https://github.com/fank-cd/python_leetcode/blob/master/027-Remove%20Element.py)| 简单| 
+028 | [实现strStr()](https://github.com/fank-cd/python_leetcode/blob/master/028-Implement%20strStr.py)| 简单| 
+035 | [搜索插入位置](https://github.com/fank-cd/python_leetcode/blob/master/035-Search%20Insert%20Position.py)| 简单| 
+
+
+#### 总计：13
+
+数据库
+---
+
+
+id | 题目 | 难度 | 注释
+---|---|---| ---|
+175 | [组合两个表](https://github.com/fank-cd/python_leetcode/blob/master/175-Combine%20Two%20Tables.py)| 简单| 
+182 | [查找重复的电子邮箱](https://github.com/fank-cd/python_leetcode/blob/master/182-Duplicate%20Emails.py)| 简单| 
+595 | [大的国家](https://github.com/fank-cd/python_leetcode/blob/master/595-Big%20Countries.py)| 中等| 
+620 | [有趣的电影](https://github.com/fank-cd/python_leetcode/blob/master/620-Not%20Boring%20Movies.py)| 简单| 
+
+
+#### 总计：4
 
 
 
-####  上次更新 2019/3/5
+###  上次更新 2019/3/5
