@@ -21,9 +21,18 @@ id | 题目 | 难度 | 注释
 027 | [移除元素](https://github.com/fank-cd/python_leetcode/blob/master/027-Remove%20Element.py)| 简单| 
 028 | [实现strStr()](https://github.com/fank-cd/python_leetcode/blob/master/028-Implement%20strStr.py)| 简单| 
 035 | [搜索插入位置](https://github.com/fank-cd/python_leetcode/blob/master/035-Search%20Insert%20Position.py)| 简单| 
+036 | [有效的数独](https://github.com/fank-cd/python_leetcode/blob/master/036-Valid%20Sudoku.py)| 中等| 
+038 | [报数](https://github.com/fank-cd/python_leetcode/blob/master/038-Count%20and%20Say.py)| 简单| 
+048 | [旋转图像](https://github.com/fank-cd/python_leetcode/blob/master/048-Rotate%20Image.py)| 中等| 
+053 | [最大子序和](https://github.com/fank-cd/python_leetcode/blob/master/053-Maximum%20Subarray.py)| 简单| 
+058 | [最后一个单词的长度](https://github.com/fank-cd/python_leetcode/blob/master/058-Length%20of%20Last%20Word.py)| 简单| 
+066 | [加一](https://github.com/fank-cd/python_leetcode/blob/master/066-Plus%20One.py)| 简单| 
+067 | [二进制求和](https://github.com/fank-cd/python_leetcode/blob/master/067-Add%20Binary.py)| 简单| 
+069 | [x的平方根](https://github.com/fank-cd/python_leetcode/blob/master/069-Sqrt(x).py)| 简单| 
+070 | [爬楼梯](https://github.com/fank-cd/python_leetcode/blob/master/070-Climbing%20Stairs.py)| 简单| 
 
 
-#### 总计：13
+#### 总计：22
 
 数据库
 ---
