@@ -30,9 +30,14 @@ id | 题目 | 难度 | 注释
 067 | [二进制求和](https://github.com/fank-cd/python_leetcode/blob/master/067-Add%20Binary.py)| 简单| 
 069 | [x的平方根](https://github.com/fank-cd/python_leetcode/blob/master/069-Sqrt(x).py)| 简单| 
 070 | [爬楼梯](https://github.com/fank-cd/python_leetcode/blob/master/070-Climbing%20Stairs.py)| 简单| 
+083 | [删除排序链表中的重复元素](https://github.com/fank-cd/python_leetcode/blob/master/083-Remove%20Duplicates%20from%20Sorted%20List.py)| 中等| 
+088 | [合并两个有序数组](https://github.com/fank-cd/python_leetcode/blob/master/088-Merge%20Sorted%20Array.py)| 简单| 
+098 | [验证二叉搜索树](https://github.com/fank-cd/python_leetcode/blob/master/098-Validate%20Binary%20Search%20Tree.py)| 简单| 
+0100 | [相同的树](https://github.com/fank-cd/python_leetcode/blob/master/100-Same%20Tree.py)| 简单| 
+0101 | [对称二叉树](https://github.com/fank-cd/python_leetcode/blob/master/101-Symmetric%20Tree.py)| 简单| 
 
 
-#### 总计：22
+#### 总计：26
 
 数据库
 ---
@@ -50,4 +55,4 @@ id | 题目 | 难度 | 注释
 
 
 
-###  上次更新 2019/3/7
+###  上次更新 2019/3/11
