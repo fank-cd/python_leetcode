@@ -44,7 +44,7 @@ id | 题目 | 难度 | 注释
 141 | [环形链表](https://github.com/fank-cd/python_leetcode/blob/master/141-Linked%20List%20Cycle.py)| 简单| 
 
 
-#### 总计：26
+#### 总计：34
 
 数据库
 ---
@@ -62,4 +62,4 @@ id | 题目 | 难度 | 注释
 
 
 
-###  上次更新 2019/3/11
+###  上次更新 2019/3/12
