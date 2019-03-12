@@ -33,8 +33,15 @@ id | 题目 | 难度 | 注释
 083 | [删除排序链表中的重复元素](https://github.com/fank-cd/python_leetcode/blob/master/083-Remove%20Duplicates%20from%20Sorted%20List.py)| 中等| 
 088 | [合并两个有序数组](https://github.com/fank-cd/python_leetcode/blob/master/088-Merge%20Sorted%20Array.py)| 简单| 
 098 | [验证二叉搜索树](https://github.com/fank-cd/python_leetcode/blob/master/098-Validate%20Binary%20Search%20Tree.py)| 简单| 
-0100 | [相同的树](https://github.com/fank-cd/python_leetcode/blob/master/100-Same%20Tree.py)| 简单| 
-0101 | [对称二叉树](https://github.com/fank-cd/python_leetcode/blob/master/101-Symmetric%20Tree.py)| 简单| 
+100 | [相同的树](https://github.com/fank-cd/python_leetcode/blob/master/100-Same%20Tree.py)| 简单| 
+101 | [对称二叉树](https://github.com/fank-cd/python_leetcode/blob/master/101-Symmetric%20Tree.py)| 简单| 
+102 | [二叉树的层次遍历](https://github.com/fank-cd/python_leetcode/blob/master/102-Binary%20Tree%20Level%20Order%20Traversal.py)| 中等| 
+104 | [二叉树的最大深度](https://github.com/fank-cd/python_leetcode/blob/master/104-Maximum%20Depth%20of%20Binary%20Tree.py)| 简单| 
+121 | [买卖股票的最佳时机](https://github.com/fank-cd/python_leetcode/blob/master/121-Best%20Time%20to%20Buy%20and%20Sell%20Stock.py)| 中等| 
+122 | [买卖股票的最佳时机 II](https://github.com/fank-cd/python_leetcode/blob/master/122-Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.py)| 简单| 
+125 | [验证回文串](https://github.com/fank-cd/python_leetcode/blob/master/125-Valid%20Palindrome.py)| 简单| 
+136 | [只出现一次的数字](https://github.com/fank-cd/python_leetcode/blob/master/136-Single%20Number.py)| 简单| 
+141 | [环形链表](https://github.com/fank-cd/python_leetcode/blob/master/141-Linked%20List%20Cycle.py)| 简单| 
 
 
 #### 总计：26
