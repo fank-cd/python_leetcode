@@ -42,9 +42,14 @@ id | 题目 | 难度 | 注释
 125 | [验证回文串](https://github.com/fank-cd/python_leetcode/blob/master/125-Valid%20Palindrome.py)| 简单| 
 136 | [只出现一次的数字](https://github.com/fank-cd/python_leetcode/blob/master/136-Single%20Number.py)| 简单| 
 141 | [环形链表](https://github.com/fank-cd/python_leetcode/blob/master/141-Linked%20List%20Cycle.py)| 简单| 
+155 | [最小栈](https://github.com/fank-cd/python_leetcode/blob/master/155-Min%20Stack.py)| 简单| 
+189 | [旋转数组](https://github.com/fank-cd/python_leetcode/blob/master/189-Rotate%20Array.py)| 简单| 
+198 | [打家劫舍](https://github.com/fank-cd/python_leetcode/blob/master/198-House%20Robber.py)| 简单| 
+204 | [计数质数](https://github.com/fank-cd/python_leetcode/blob/master/204-Count%20Primes.py)| 简单| 
+206 | [反转链表](https://github.com/fank-cd/python_leetcode/blob/master/206-Reverse%20Linked%20List.py)| 简单| 
 
 
-#### 总计：34
+#### 总计：39
 
 数据库
 ---
@@ -62,4 +67,4 @@ id | 题目 | 难度 | 注释
 
 
 
-###  上次更新 2019/3/12
+###  上次更新 2019/3/13
