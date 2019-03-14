@@ -47,6 +47,17 @@ id | 题目 | 难度 | 注释
 198 | [打家劫舍](https://github.com/fank-cd/python_leetcode/blob/master/198-House%20Robber.py)| 简单| 
 204 | [计数质数](https://github.com/fank-cd/python_leetcode/blob/master/204-Count%20Primes.py)| 简单| 
 206 | [反转链表](https://github.com/fank-cd/python_leetcode/blob/master/206-Reverse%20Linked%20List.py)| 简单| 
+217 | [存在重复元素](https://github.com/fank-cd/python_leetcode/blob/master/217-Contains%20Duplicate.py)| 中等| 
+234 | [回文链表](https://github.com/fank-cd/python_leetcode/blob/master/234-Palindrome%20Linked%20List.py)| 简单| 
+237 | [删除链表中的节点](https://github.com/fank-cd/python_leetcode/blob/master/237-Delete%20Node%20in%20a%20Linked%20List.py)| 简单| 
+242 | [有效的字母异位词](https://github.com/fank-cd/python_leetcode/blob/master/242-Valid%20Anagram.py)| 简单| 
+278 | [第一个错误的版本](https://github.com/fank-cd/python_leetcode/blob/master/278-First%20Bad%20Version.py)| 简单| 
+283 | [移动零](https://github.com/fank-cd/python_leetcode/blob/master/283-Move%20Zeroes.py)| 简单| 
+326 | [3的幂](https://github.com/fank-cd/python_leetcode/blob/master/326-Power%20of%20Three.py)| 简单| 
+344 | [反转字符串](https://github.com/fank-cd/python_leetcode/blob/master/344-Reverse%20String.py)| 简单| 
+350 | [两个数组的交集 II](https://github.com/fank-cd/python_leetcode/blob/master/350-Intersection%20of%20Two%20Arrays%20II.py)| 简单| 
+387| [字符串中的第一个唯一字符](https://github.com/fank-cd/python_leetcode/blob/master/387-First%20Unique%20Character%20in%20a%20String.py)| 简单| 
+412| [Fizz Buzz](https://github.com/fank-cd/python_leetcode/blob/master/412-Fizz%20Buzz.py)| 简单| 
 
 
 #### 总计：39
