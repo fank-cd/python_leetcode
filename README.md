@@ -60,7 +60,7 @@ id | 题目 | 难度 | 注释
 412| [Fizz Buzz](https://github.com/fank-cd/python_leetcode/blob/master/412-Fizz%20Buzz.py)| 简单| 
 
 
-#### 总计：39
+#### 总计：50
 
 数据库
 ---
@@ -78,4 +78,4 @@ id | 题目 | 难度 | 注释
 
 
 
-###  上次更新 2019/3/13
+###  上次更新 2019/3/14
