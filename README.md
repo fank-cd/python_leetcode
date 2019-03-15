@@ -58,9 +58,12 @@ id | 题目 | 难度 | 注释
 350 | [两个数组的交集 II](https://github.com/fank-cd/python_leetcode/blob/master/350-Intersection%20of%20Two%20Arrays%20II.py)| 简单| 
 387| [字符串中的第一个唯一字符](https://github.com/fank-cd/python_leetcode/blob/master/387-First%20Unique%20Character%20in%20a%20String.py)| 简单| 
 412| [Fizz Buzz](https://github.com/fank-cd/python_leetcode/blob/master/412-Fizz%20Buzz.py)| 简单| 
+485| [最大连续1的个数](https://github.com/fank-cd/python_leetcode/blob/master/485-Max%20Consecutive%20Ones.py)| 简单| 
 
 
-#### 总计：50
+
+
+#### 总计：51
 
 数据库
 ---
@@ -68,14 +71,17 @@ id | 题目 | 难度 | 注释
 
 id | 题目 | 难度 | 注释
 ---|---|---| ---|
-175 | [组合两个表](https://github.com/fank-cd/python_leetcode/blob/master/175-Combine%20Two%20Tables.py)| 简单| 
-182 | [查找重复的电子邮箱](https://github.com/fank-cd/python_leetcode/blob/master/182-Duplicate%20Emails.py)| 简单| 
-595 | [大的国家](https://github.com/fank-cd/python_leetcode/blob/master/595-Big%20Countries.py)| 中等| 
-620 | [有趣的电影](https://github.com/fank-cd/python_leetcode/blob/master/620-Not%20Boring%20Movies.py)| 简单| 
+175 | [组合两个表](https://github.com/fank-cd/python_leetcode/blob/master/%5BSQL%5D175-Combine%20Two%20Tables.py)| 简单| 
+181 | [超过经理收入的员工](https://github.com/fank-cd/python_leetcode/blob/master/%5BSQL%5D181-Employees%20Earning%20More%20Than%20Their%20Managers.py)| 简单| 
+182 | [查找重复的电子邮箱](https://github.com/fank-cd/python_leetcode/blob/master/%5BSQL%5D182-Duplicate%20Emails.py)| 简单| 
+595 | [大的国家](https://github.com/fank-cd/python_leetcode/blob/master/%5BSQL%5D595-Big%20Countries.py)| 中等| 
+596 | [超过5名学生的课](https://github.com/fank-cd/python_leetcode/blob/master/%5BSQL%5D596-Classes%20More%20Than%205%20Students.py)| 简单| 
+620 | [有趣的电影](https://github.com/fank-cd/python_leetcode/blob/master/%5BSQL%5D620-Not%20Boring%20Movies.py)| 简单| 
+627 | [交换工资](https://github.com/fank-cd/python_leetcode/blob/master/%5BSQL%5D627-Swap%20Salary.py)| 简单| 
 
 
-#### 总计：4
+#### 总计：8
 
 
 
-###  上次更新 2019/3/14
+###  上次更新 2019/3/15
