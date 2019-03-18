@@ -43,6 +43,7 @@ id | 题目 | 难度 | 注释
 136 | [只出现一次的数字](https://github.com/fank-cd/python_leetcode/blob/master/136-Single%20Number.py)| 简单| 
 141 | [环形链表](https://github.com/fank-cd/python_leetcode/blob/master/141-Linked%20List%20Cycle.py)| 简单| 
 155 | [最小栈](https://github.com/fank-cd/python_leetcode/blob/master/155-Min%20Stack.py)| 简单| 
+169 | [求众数](https://github.com/fank-cd/python_leetcode/blob/master/155-Min%20Stack.py)| 简单| 
 189 | [旋转数组](https://github.com/fank-cd/python_leetcode/blob/master/189-Rotate%20Array.py)| 简单| 
 198 | [打家劫舍](https://github.com/fank-cd/python_leetcode/blob/master/198-House%20Robber.py)| 简单| 
 204 | [计数质数](https://github.com/fank-cd/python_leetcode/blob/master/204-Count%20Primes.py)| 简单| 
@@ -56,9 +57,9 @@ id | 题目 | 难度 | 注释
 326 | [3的幂](https://github.com/fank-cd/python_leetcode/blob/master/326-Power%20of%20Three.py)| 简单| 
 344 | [反转字符串](https://github.com/fank-cd/python_leetcode/blob/master/344-Reverse%20String.py)| 简单| 
 350 | [两个数组的交集 II](https://github.com/fank-cd/python_leetcode/blob/master/350-Intersection%20of%20Two%20Arrays%20II.py)| 简单| 
-387| [字符串中的第一个唯一字符](https://github.com/fank-cd/python_leetcode/blob/master/387-First%20Unique%20Character%20in%20a%20String.py)| 简单| 
-412| [Fizz Buzz](https://github.com/fank-cd/python_leetcode/blob/master/412-Fizz%20Buzz.py)| 简单| 
-485| [最大连续1的个数](https://github.com/fank-cd/python_leetcode/blob/master/485-Max%20Consecutive%20Ones.py)| 简单| 
+387 | [字符串中的第一个唯一字符](https://github.com/fank-cd/python_leetcode/blob/master/387-First%20Unique%20Character%20in%20a%20String.py)| 简单| 
+412 | [Fizz Buzz](https://github.com/fank-cd/python_leetcode/blob/master/412-Fizz%20Buzz.py)| 简单| 
+485 | [最大连续1的个数](https://github.com/fank-cd/python_leetcode/blob/master/485-Max%20Consecutive%20Ones.py)| 简单| 
 
 
 
