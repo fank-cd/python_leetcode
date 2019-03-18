@@ -43,7 +43,7 @@ id | 题目 | 难度 | 注释
 136 | [只出现一次的数字](https://github.com/fank-cd/python_leetcode/blob/master/136-Single%20Number.py)| 简单| 
 141 | [环形链表](https://github.com/fank-cd/python_leetcode/blob/master/141-Linked%20List%20Cycle.py)| 简单| 
 155 | [最小栈](https://github.com/fank-cd/python_leetcode/blob/master/155-Min%20Stack.py)| 简单| 
-169 | [求众数](https://github.com/fank-cd/python_leetcode/blob/master/155-Min%20Stack.py)| 简单| 
+169 | [求众数](https://github.com/fank-cd/python_leetcode/blob/master/169-Majority%20Element.py)| 简单| 
 189 | [旋转数组](https://github.com/fank-cd/python_leetcode/blob/master/189-Rotate%20Array.py)| 简单| 
 198 | [打家劫舍](https://github.com/fank-cd/python_leetcode/blob/master/198-House%20Robber.py)| 简单| 
 204 | [计数质数](https://github.com/fank-cd/python_leetcode/blob/master/204-Count%20Primes.py)| 简单| 
@@ -51,6 +51,7 @@ id | 题目 | 难度 | 注释
 217 | [存在重复元素](https://github.com/fank-cd/python_leetcode/blob/master/217-Contains%20Duplicate.py)| 中等| 
 234 | [回文链表](https://github.com/fank-cd/python_leetcode/blob/master/234-Palindrome%20Linked%20List.py)| 简单| 
 237 | [删除链表中的节点](https://github.com/fank-cd/python_leetcode/blob/master/237-Delete%20Node%20in%20a%20Linked%20List.py)| 简单| 
+240 | [搜索二维矩阵 II](https://github.com/fank-cd/python_leetcode/blob/master/240-Search%20a%202D%20Matrix%20II.py)| 中等| 
 242 | [有效的字母异位词](https://github.com/fank-cd/python_leetcode/blob/master/242-Valid%20Anagram.py)| 简单| 
 278 | [第一个错误的版本](https://github.com/fank-cd/python_leetcode/blob/master/278-First%20Bad%20Version.py)| 简单| 
 283 | [移动零](https://github.com/fank-cd/python_leetcode/blob/master/283-Move%20Zeroes.py)| 简单| 
@@ -64,7 +65,7 @@ id | 题目 | 难度 | 注释
 
 
 
-#### 总计：51
+#### 总计：53
 
 数据库
 ---
@@ -85,4 +86,4 @@ id | 题目 | 难度 | 注释
 
 
 
-###  上次更新 2019/3/15
+###  上次更新 2019/3/18
