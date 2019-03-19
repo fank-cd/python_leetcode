@@ -9,7 +9,7 @@
 id | 题目 | 难度 | 注释
 ---|---|---| ---|
 001 | [两数之和](https://github.com/fank-cd/python_leetcode/blob/master/001-two%20sum.py)| 简单| 
-002 | [两数相加](https://github.com/fank-cd/python_leetcode/blob/master/001-two%20sum.py)| 中等| 
+002 | [两数相加](https://github.com/fank-cd/python_leetcode/blob/master/002-Add%20Two%20Numbers.py)| 中等| 
 007 | [整数反转](https://github.com/fank-cd/python_leetcode/blob/master/007-Reverse%20Integer.py)| 简单| 
 008 | [字符串转换整数](https://github.com/fank-cd/python_leetcode/blob/master/008-String%20to%20Integer%20(atoi).py)| 中等| 
 009 | [回文数](https://github.com/fank-cd/python_leetcode/blob/master/009-%20Palindrome%20Number.py)| 简单| 
@@ -66,7 +66,7 @@ id | 题目 | 难度 | 注释
 
 
 
-#### 总计：53
+#### 总计：54
 
 数据库
 ---
@@ -87,4 +87,4 @@ id | 题目 | 难度 | 注释
 
 
 
-###  上次更新 2019/3/18
+###  上次更新 2019/3/19
