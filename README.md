@@ -1,91 +1,86 @@
-# python_leetcode
 
-还在陆续刷题中，争取每天都更新
----
+| [English](README_EN.md) | 简体中文 |
 
+<p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
+<p align="center">
+    <img src="https://img.shields.io/badge/用户-fank_cd-blue.svg?" alt="">
+    <img src="https://img.shields.io/badge/已解决-63/1073-blue.svg?" alt="">
+    <img src="https://img.shields.io/badge/简单-53-green.svg?" alt="">
+    <img src="https://img.shields.io/badge/中等-9-orange.svg?" alt="">
+    <img src="https://img.shields.io/badge/困难-1-red.svg?" alt="">
+</p>
+<h1 align="center">LeetCode 的解答</h1>
 
-算法
----
-id | 题目 | 难度 | 注释
----|---|---| ---|
-001 | [两数之和](https://github.com/fank-cd/python_leetcode/blob/master/001-two%20sum.py)| 简单| 
-002 | [两数相加](https://github.com/fank-cd/python_leetcode/blob/master/002-Add%20Two%20Numbers.py)| 中等| 
-003 | [无重复字符的最长子串](https://github.com/fank-cd/python_leetcode/blob/master/003-Longest%20Substring%20Without%20Repeating%20Characters.py)| 中等| 
-007 | [整数反转](https://github.com/fank-cd/python_leetcode/blob/master/007-Reverse%20Integer.py)| 简单| 
-008 | [字符串转换整数](https://github.com/fank-cd/python_leetcode/blob/master/008-String%20to%20Integer%20(atoi).py)| 中等| 
-009 | [回文数](https://github.com/fank-cd/python_leetcode/blob/master/009-%20Palindrome%20Number.py)| 简单| 
-013 | [罗马数字转整数](https://github.com/fank-cd/python_leetcode/blob/master/013-Roman%20to%20Integer.py)| 简单| 
-014 | [最长公共前缀](https://github.com/fank-cd/python_leetcode/blob/master/014-Longest%20Common%20Prefix.py)| 简单| 
-019 | [删除链表的倒数第N个节点](https://github.com/fank-cd/python_leetcode/blob/master/019-Remove%20Nth%20Node%20From%20End%20of%20List.py)| 中等| 
-020 | [有效的括号](https://github.com/fank-cd/python_leetcode/blob/master/020-Valid%20Parentheses.py)| 简单| 
-021 | [合并两个有序链表](https://github.com/fank-cd/python_leetcode/blob/master/021-Merge%20Two%20Sorted%20Lists.py)| 简单| 
-026 | [删除排序数组中的重复项](https://github.com/fank-cd/python_leetcode/blob/master/026-Remove%20Duplicates%20from%20Sorted%20Array.py)| 简单| 
-027 | [移除元素](https://github.com/fank-cd/python_leetcode/blob/master/027-Remove%20Element.py)| 简单| 
-028 | [实现strStr()](https://github.com/fank-cd/python_leetcode/blob/master/028-Implement%20strStr.py)| 简单| 
-035 | [搜索插入位置](https://github.com/fank-cd/python_leetcode/blob/master/035-Search%20Insert%20Position.py)| 简单| 
-036 | [有效的数独](https://github.com/fank-cd/python_leetcode/blob/master/036-Valid%20Sudoku.py)| 中等| 
-038 | [报数](https://github.com/fank-cd/python_leetcode/blob/master/038-Count%20and%20Say.py)| 简单| 
-048 | [旋转图像](https://github.com/fank-cd/python_leetcode/blob/master/048-Rotate%20Image.py)| 中等| 
-053 | [最大子序和](https://github.com/fank-cd/python_leetcode/blob/master/053-Maximum%20Subarray.py)| 简单| 
-058 | [最后一个单词的长度](https://github.com/fank-cd/python_leetcode/blob/master/058-Length%20of%20Last%20Word.py)| 简单| 
-066 | [加一](https://github.com/fank-cd/python_leetcode/blob/master/066-Plus%20One.py)| 简单| 
-067 | [二进制求和](https://github.com/fank-cd/python_leetcode/blob/master/067-Add%20Binary.py)| 简单| 
-069 | [x的平方根](https://github.com/fank-cd/python_leetcode/blob/master/069-Sqrt(x).py)| 简单| 
-070 | [爬楼梯](https://github.com/fank-cd/python_leetcode/blob/master/070-Climbing%20Stairs.py)| 简单| 
-083 | [删除排序链表中的重复元素](https://github.com/fank-cd/python_leetcode/blob/master/083-Remove%20Duplicates%20from%20Sorted%20List.py)| 中等| 
-088 | [合并两个有序数组](https://github.com/fank-cd/python_leetcode/blob/master/088-Merge%20Sorted%20Array.py)| 简单| 
-098 | [验证二叉搜索树](https://github.com/fank-cd/python_leetcode/blob/master/098-Validate%20Binary%20Search%20Tree.py)| 简单| 
-100 | [相同的树](https://github.com/fank-cd/python_leetcode/blob/master/100-Same%20Tree.py)| 简单| 
-101 | [对称二叉树](https://github.com/fank-cd/python_leetcode/blob/master/101-Symmetric%20Tree.py)| 简单| 
-102 | [二叉树的层次遍历](https://github.com/fank-cd/python_leetcode/blob/master/102-Binary%20Tree%20Level%20Order%20Traversal.py)| 中等| 
-104 | [二叉树的最大深度](https://github.com/fank-cd/python_leetcode/blob/master/104-Maximum%20Depth%20of%20Binary%20Tree.py)| 简单| 
-121 | [买卖股票的最佳时机](https://github.com/fank-cd/python_leetcode/blob/master/121-Best%20Time%20to%20Buy%20and%20Sell%20Stock.py)| 中等| 
-122 | [买卖股票的最佳时机 II](https://github.com/fank-cd/python_leetcode/blob/master/122-Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.py)| 简单| 
-125 | [验证回文串](https://github.com/fank-cd/python_leetcode/blob/master/125-Valid%20Palindrome.py)| 简单| 
-136 | [只出现一次的数字](https://github.com/fank-cd/python_leetcode/blob/master/136-Single%20Number.py)| 简单| 
-141 | [环形链表](https://github.com/fank-cd/python_leetcode/blob/master/141-Linked%20List%20Cycle.py)| 简单| 
-155 | [最小栈](https://github.com/fank-cd/python_leetcode/blob/master/155-Min%20Stack.py)| 简单| 
-169 | [求众数](https://github.com/fank-cd/python_leetcode/blob/master/169-Majority%20Element.py)| 简单| 
-189 | [旋转数组](https://github.com/fank-cd/python_leetcode/blob/master/189-Rotate%20Array.py)| 简单| 
-198 | [打家劫舍](https://github.com/fank-cd/python_leetcode/blob/master/198-House%20Robber.py)| 简单| 
-204 | [计数质数](https://github.com/fank-cd/python_leetcode/blob/master/204-Count%20Primes.py)| 简单| 
-206 | [反转链表](https://github.com/fank-cd/python_leetcode/blob/master/206-Reverse%20Linked%20List.py)| 简单| 
-217 | [存在重复元素](https://github.com/fank-cd/python_leetcode/blob/master/217-Contains%20Duplicate.py)| 中等| 
-234 | [回文链表](https://github.com/fank-cd/python_leetcode/blob/master/234-Palindrome%20Linked%20List.py)| 简单| 
-237 | [删除链表中的节点](https://github.com/fank-cd/python_leetcode/blob/master/237-Delete%20Node%20in%20a%20Linked%20List.py)| 简单| 
-240 | [搜索二维矩阵 II](https://github.com/fank-cd/python_leetcode/blob/master/240-Search%20a%202D%20Matrix%20II.py)| 中等| 
-242 | [有效的字母异位词](https://github.com/fank-cd/python_leetcode/blob/master/242-Valid%20Anagram.py)| 简单| 
-278 | [第一个错误的版本](https://github.com/fank-cd/python_leetcode/blob/master/278-First%20Bad%20Version.py)| 简单| 
-283 | [移动零](https://github.com/fank-cd/python_leetcode/blob/master/283-Move%20Zeroes.py)| 简单| 
-326 | [3的幂](https://github.com/fank-cd/python_leetcode/blob/master/326-Power%20of%20Three.py)| 简单| 
-344 | [反转字符串](https://github.com/fank-cd/python_leetcode/blob/master/344-Reverse%20String.py)| 简单| 
-350 | [两个数组的交集 II](https://github.com/fank-cd/python_leetcode/blob/master/350-Intersection%20of%20Two%20Arrays%20II.py)| 简单| 
-387 | [字符串中的第一个唯一字符](https://github.com/fank-cd/python_leetcode/blob/master/387-First%20Unique%20Character%20in%20a%20String.py)| 简单| 
-412 | [Fizz Buzz](https://github.com/fank-cd/python_leetcode/blob/master/412-Fizz%20Buzz.py)| 简单| 
-485 | [最大连续1的个数](https://github.com/fank-cd/python_leetcode/blob/master/485-Max%20Consecutive%20Ones.py)| 简单| 
+<p align="center">
+    <br>
+    <b>最近一次更新: 2019-06-14 18:42:35</b>
+    <br>
+</p>
+<!--请保留下面这行信息，让更多用户了解到这个小爬虫，衷心感谢您的支持-->
+<p align="center">The source code is fetched using the tool <a href="https://github.com/KivenCkl/LeetCode_Helper">LeetCode_Helper</a>.</p>
 
-
-
-
-#### 总计：55
-
-数据库
----
-
-
-id | 题目 | 难度 | 注释
----|---|---| ---|
-175 | [组合两个表](https://github.com/fank-cd/python_leetcode/blob/master/%5BSQL%5D175-Combine%20Two%20Tables.py)| 简单| 
-181 | [超过经理收入的员工](https://github.com/fank-cd/python_leetcode/blob/master/%5BSQL%5D181-Employees%20Earning%20More%20Than%20Their%20Managers.py)| 简单| 
-182 | [查找重复的电子邮箱](https://github.com/fank-cd/python_leetcode/blob/master/%5BSQL%5D182-Duplicate%20Emails.py)| 简单| 
-595 | [大的国家](https://github.com/fank-cd/python_leetcode/blob/master/%5BSQL%5D595-Big%20Countries.py)| 中等| 
-596 | [超过5名学生的课](https://github.com/fank-cd/python_leetcode/blob/master/%5BSQL%5D596-Classes%20More%20Than%205%20Students.py)| 简单| 
-620 | [有趣的电影](https://github.com/fank-cd/python_leetcode/blob/master/%5BSQL%5D620-Not%20Boring%20Movies.py)| 简单| 
-627 | [交换工资](https://github.com/fank-cd/python_leetcode/blob/master/%5BSQL%5D627-Swap%20Salary.py)| 简单| 
-
-
-#### 总计：8
-
-
-
-###  上次更新 2019/3/25
+| # | 题名 | 解答 | 通过率 | 难度 | 标签 |
+|:--:|:-----|:---------:|:----:|:----:|:----:|
+|0627|[交换工资](Problemset/swap-salary/README.md)[📝](https://leetcode-cn.com/articles/swap-salary/)|[SQL](Problemset/swap-salary/swap-salary.sql)|67.6%|简单||
+|0620|[有趣的电影](Problemset/not-boring-movies/README.md)[📝](https://leetcode-cn.com/articles/not-boring-movies/)|[SQL](Problemset/not-boring-movies/not-boring-movies.sql)|71.1%|简单||
+|0596|[超过5名学生的课](Problemset/classes-more-than-5-students/README.md)|[SQL](Problemset/classes-more-than-5-students/classes-more-than-5-students.sql)|36.2%|简单||
+|0595|[大的国家](Problemset/big-countries/README.md)|[SQL](Problemset/big-countries/big-countries.sql)|73.2%|简单||
+|0485|[最大连续1的个数](Problemset/max-consecutive-ones/README.md)|[Python](Problemset/max-consecutive-ones/max-consecutive-ones.py)|53.5%|简单|[数组](https://leetcode-cn.com/tag/array)|
+|0412|[Fizz Buzz](Problemset/fizz-buzz/README.md)|[Python](Problemset/fizz-buzz/fizz-buzz.py)|59.9%|简单||
+|0387|[字符串中的第一个唯一字符](Problemset/first-unique-character-in-a-string/README.md)|[Python](Problemset/first-unique-character-in-a-string/first-unique-character-in-a-string.py)|38.7%|简单|[哈希表](https://leetcode-cn.com/tag/hash-table)<br>[字符串](https://leetcode-cn.com/tag/string)|
+|0350|[两个数组的交集 II](Problemset/intersection-of-two-arrays-ii/README.md)|[Python](Problemset/intersection-of-two-arrays-ii/intersection-of-two-arrays-ii.py)|42.1%|简单|[排序](https://leetcode-cn.com/tag/sort)<br>[哈希表](https://leetcode-cn.com/tag/hash-table)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)<br>[二分查找](https://leetcode-cn.com/tag/binary-search)|
+|0344|[反转字符串](Problemset/reverse-string/README.md)|[Python](Problemset/reverse-string/reverse-string.py)|66.8%|简单|[双指针](https://leetcode-cn.com/tag/two-pointers)<br>[字符串](https://leetcode-cn.com/tag/string)|
+|0326|[3的幂](Problemset/power-of-three/README.md)|[Python](Problemset/power-of-three/power-of-three.py)|44.3%|简单|[数学](https://leetcode-cn.com/tag/math)|
+|0283|[移动零](Problemset/move-zeroes/README.md)|[Python](Problemset/move-zeroes/move-zeroes.py)|54.6%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
+|0278|[第一个错误的版本](Problemset/first-bad-version/README.md)|[Python](Problemset/first-bad-version/first-bad-version.py)|31.5%|简单|[二分查找](https://leetcode-cn.com/tag/binary-search)|
+|0242|[有效的字母异位词](Problemset/valid-anagram/README.md)|[Python](Problemset/valid-anagram/valid-anagram.py)|53.4%|简单|[排序](https://leetcode-cn.com/tag/sort)<br>[哈希表](https://leetcode-cn.com/tag/hash-table)|
+|0240|[搜索二维矩阵 II](Problemset/search-a-2d-matrix-ii/README.md)|[Python](Problemset/search-a-2d-matrix-ii/search-a-2d-matrix-ii.py)|36.8%|中等|[二分查找](https://leetcode-cn.com/tag/binary-search)<br>[分治算法](https://leetcode-cn.com/tag/divide-and-conquer)|
+|0237|[删除链表中的节点](Problemset/delete-node-in-a-linked-list/README.md)[📝](https://leetcode-cn.com/articles/delete-node-in-a-linked-list/)|[Python](Problemset/delete-node-in-a-linked-list/delete-node-in-a-linked-list.py)|74.2%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
+|0234|[回文链表](Problemset/palindrome-linked-list/README.md)|[Python](Problemset/palindrome-linked-list/palindrome-linked-list.py)|37.2%|简单|[链表](https://leetcode-cn.com/tag/linked-list)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
+|0217|[存在重复元素](Problemset/contains-duplicate/README.md)|[Python](Problemset/contains-duplicate/contains-duplicate.py)|48.6%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[哈希表](https://leetcode-cn.com/tag/hash-table)|
+|0206|[反转链表](Problemset/reverse-linked-list/README.md)[📝](https://leetcode-cn.com/articles/reverse-linked-list/)|[Python](Problemset/reverse-linked-list/reverse-linked-list.py)|62.0%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
+|0204|[计数质数](Problemset/count-primes/README.md)|[Python](Problemset/count-primes/count-primes.py)|28.3%|简单|[哈希表](https://leetcode-cn.com/tag/hash-table)<br>[数学](https://leetcode-cn.com/tag/math)|
+|0198|[打家劫舍](Problemset/house-robber/README.md)|[Python](Problemset/house-robber/house-robber.py)|40.3%|简单|[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
+|0189|[旋转数组](Problemset/rotate-array/README.md)|[Python](Problemset/rotate-array/rotate-array.py)|37.6%|简单|[数组](https://leetcode-cn.com/tag/array)|
+|0182|[查找重复的电子邮箱](Problemset/duplicate-emails/README.md)[📝](https://leetcode-cn.com/articles/duplicate-emails/)|[SQL](Problemset/duplicate-emails/duplicate-emails.sql)|75.1%|简单||
+|0181|[超过经理收入的员工](Problemset/employees-earning-more-than-their-managers/README.md)|[SQL](Problemset/employees-earning-more-than-their-managers/employees-earning-more-than-their-managers.sql)|64.6%|简单||
+|0175|[组合两个表](Problemset/combine-two-tables/README.md)[📝](https://leetcode-cn.com/articles/combine-two-tables/)|[SQL](Problemset/combine-two-tables/combine-two-tables.sql)|68.8%|简单||
+|0169|[求众数](Problemset/majority-element/README.md)|[Python](Problemset/majority-element/majority-element.py)|59.5%|简单|[位运算](https://leetcode-cn.com/tag/bit-manipulation)<br>[数组](https://leetcode-cn.com/tag/array)<br>[分治算法](https://leetcode-cn.com/tag/divide-and-conquer)|
+|0155|[最小栈](Problemset/min-stack/README.md)|[Python](Problemset/min-stack/min-stack.py)|48.9%|简单|[栈](https://leetcode-cn.com/tag/stack)<br>[设计](https://leetcode-cn.com/tag/design)|
+|0141|[环形链表](Problemset/linked-list-cycle/README.md)[📝](https://leetcode-cn.com/articles/linked-list-cycle/)|[Python](Problemset/linked-list-cycle/linked-list-cycle.py)|40.1%|简单|[链表](https://leetcode-cn.com/tag/linked-list)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
+|0136|[只出现一次的数字](Problemset/single-number/README.md)|[Python](Problemset/single-number/single-number.py)|61.4%|简单|[位运算](https://leetcode-cn.com/tag/bit-manipulation)<br>[哈希表](https://leetcode-cn.com/tag/hash-table)|
+|0125|[验证回文串](Problemset/valid-palindrome/README.md)|[Python](Problemset/valid-palindrome/valid-palindrome.py)|39.9%|简单|[双指针](https://leetcode-cn.com/tag/two-pointers)<br>[字符串](https://leetcode-cn.com/tag/string)|
+|0122|[买卖股票的最佳时机 II](Problemset/best-time-to-buy-and-sell-stock-ii/README.md)[📝](https://leetcode-cn.com/articles/best-time-to-buy-and-sell-stock-ii/)|[Python](Problemset/best-time-to-buy-and-sell-stock-ii/best-time-to-buy-and-sell-stock-ii.py)|53.7%|简单|[贪心算法](https://leetcode-cn.com/tag/greedy)<br>[数组](https://leetcode-cn.com/tag/array)|
+|0121|[买卖股票的最佳时机](Problemset/best-time-to-buy-and-sell-stock/README.md)[📝](https://leetcode-cn.com/articles/best-time-to-buy-and-sell-stock/)|[Python](Problemset/best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.py)|49.9%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
+|0104|[二叉树的最大深度](Problemset/maximum-depth-of-binary-tree/README.md)[📝](https://leetcode-cn.com/articles/maximum-depth-of-binary-tree/)|[Python](Problemset/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.py)|69.3%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)|
+|0102|[二叉树的层次遍历](Problemset/binary-tree-level-order-traversal/README.md)|[Python](Problemset/binary-tree-level-order-traversal/binary-tree-level-order-traversal.py)|56.5%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
+|0101|[对称二叉树](Problemset/symmetric-tree/README.md)[📝](https://leetcode-cn.com/articles/symmetric-tree/)|[Python](Problemset/symmetric-tree/symmetric-tree.py)|46.8%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
+|0100|[相同的树](Problemset/same-tree/README.md)|[Python](Problemset/same-tree/same-tree.py)|53.0%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)|
+|0098|[验证二叉搜索树](Problemset/validate-binary-search-tree/README.md)|[Python](Problemset/validate-binary-search-tree/validate-binary-search-tree.py)|26.1%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)|
+|0088|[合并两个有序数组](Problemset/merge-sorted-array/README.md)|[Python](Problemset/merge-sorted-array/merge-sorted-array.py)|44.3%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
+|0083|[删除排序链表中的重复元素](Problemset/remove-duplicates-from-sorted-list/README.md)[📝](https://leetcode-cn.com/articles/remove-duplicates-from-sorted-list/)|[Python](Problemset/remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.py)|46.1%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
+|0070|[爬楼梯](Problemset/climbing-stairs/README.md)[📝](https://leetcode-cn.com/articles/climbing-stairs/)|[Python](Problemset/climbing-stairs/climbing-stairs.py)|45.6%|简单|[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
+|0069|[x 的平方根](Problemset/sqrtx/README.md)|[Python](Problemset/sqrtx/sqrtx.py)|36.1%|简单|[数学](https://leetcode-cn.com/tag/math)<br>[二分查找](https://leetcode-cn.com/tag/binary-search)|
+|0067|[二进制求和](Problemset/add-binary/README.md)|[Python](Problemset/add-binary/add-binary.py)|48.9%|简单|[数学](https://leetcode-cn.com/tag/math)<br>[字符串](https://leetcode-cn.com/tag/string)|
+|0066|[加一](Problemset/plus-one/README.md)|[Python](Problemset/plus-one/plus-one.py)|39.2%|简单|[数组](https://leetcode-cn.com/tag/array)|
+|0058|[最后一个单词的长度](Problemset/length-of-last-word/README.md)|[Python](Problemset/length-of-last-word/length-of-last-word.py)|30.1%|简单|[字符串](https://leetcode-cn.com/tag/string)|
+|0053|[最大子序和](Problemset/maximum-subarray/README.md)|[Python](Problemset/maximum-subarray/maximum-subarray.py)|45.4%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[分治算法](https://leetcode-cn.com/tag/divide-and-conquer)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
+|0048|[旋转图像](Problemset/rotate-image/README.md)|[Python](Problemset/rotate-image/rotate-image.py)|62.0%|中等|[数组](https://leetcode-cn.com/tag/array)|
+|0038|[报数](Problemset/count-and-say/README.md)|[Python](Problemset/count-and-say/count-and-say.py)|50.4%|简单|[字符串](https://leetcode-cn.com/tag/string)|
+|0036|[有效的数独](Problemset/valid-sudoku/README.md)[📝](https://leetcode-cn.com/articles/valid-sudoku/)|[Python](Problemset/valid-sudoku/valid-sudoku.py)|53.6%|中等|[哈希表](https://leetcode-cn.com/tag/hash-table)|
+|0035|[搜索插入位置](Problemset/search-insert-position/README.md)|[Python](Problemset/search-insert-position/search-insert-position.py)|43.6%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[二分查找](https://leetcode-cn.com/tag/binary-search)|
+|0028|[实现strStr()](Problemset/implement-strstr/README.md)|[Python](Problemset/implement-strstr/implement-strstr.py)|38.2%|简单|[双指针](https://leetcode-cn.com/tag/two-pointers)<br>[字符串](https://leetcode-cn.com/tag/string)|
+|0027|[移除元素](Problemset/remove-element/README.md)[📝](https://leetcode-cn.com/articles/remove-element/)|[Python](Problemset/remove-element/remove-element.py)|55.0%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
+|0026|[删除排序数组中的重复项](Problemset/remove-duplicates-from-sorted-array/README.md)[📝](https://leetcode-cn.com/articles/remove-duplicates-from-sorted-array/)|[Python](Problemset/remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.py)|44.6%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
+|0021|[合并两个有序链表](Problemset/merge-two-sorted-lists/README.md)|[Python](Problemset/merge-two-sorted-lists/merge-two-sorted-lists.py)|54.9%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
+|0020|[有效的括号](Problemset/valid-parentheses/README.md)[📝](https://leetcode-cn.com/articles/valid-parentheses/)|[Python](Problemset/valid-parentheses/valid-parentheses.py)|38.4%|简单|[栈](https://leetcode-cn.com/tag/stack)<br>[字符串](https://leetcode-cn.com/tag/string)|
+|0019|[删除链表的倒数第N个节点](Problemset/remove-nth-node-from-end-of-list/README.md)[📝](https://leetcode-cn.com/articles/remove-nth-node-from-end-of-list/)|[Python](Problemset/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.py)|33.9%|中等|[链表](https://leetcode-cn.com/tag/linked-list)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
+|0014|[最长公共前缀](Problemset/longest-common-prefix/README.md)[📝](https://leetcode-cn.com/articles/longest-common-prefix/)|[Python](Problemset/longest-common-prefix/longest-common-prefix.py)|33.7%|简单|[字符串](https://leetcode-cn.com/tag/string)|
+|0013|[罗马数字转整数](Problemset/roman-to-integer/README.md)|[Python](Problemset/roman-to-integer/roman-to-integer.py)|57.9%|简单|[数学](https://leetcode-cn.com/tag/math)<br>[字符串](https://leetcode-cn.com/tag/string)|
+|0009|[回文数](Problemset/palindrome-number/README.md)[📝](https://leetcode-cn.com/articles/palindrome-number/)|[Python](Problemset/palindrome-number/palindrome-number.py)|56.1%|简单|[数学](https://leetcode-cn.com/tag/math)|
+|0008|[字符串转换整数 (atoi)](Problemset/string-to-integer-atoi/README.md)|[Python](Problemset/string-to-integer-atoi/string-to-integer-atoi.py)|17.1%|中等|[数学](https://leetcode-cn.com/tag/math)<br>[字符串](https://leetcode-cn.com/tag/string)|
+|0007|[整数反转](Problemset/reverse-integer/README.md)[📝](https://leetcode-cn.com/articles/reverse-integer/)|[Python](Problemset/reverse-integer/reverse-integer.py)|32.5%|简单|[数学](https://leetcode-cn.com/tag/math)|
+|0004|[寻找两个有序数组的中位数](Problemset/median-of-two-sorted-arrays/README.md)[📝](https://leetcode-cn.com/articles/median-of-two-sorted-arrays/)|[Python](Problemset/median-of-two-sorted-arrays/median-of-two-sorted-arrays.py)|35.2%|困难|[数组](https://leetcode-cn.com/tag/array)<br>[二分查找](https://leetcode-cn.com/tag/binary-search)<br>[分治算法](https://leetcode-cn.com/tag/divide-and-conquer)|
+|0003|[无重复字符的最长子串](Problemset/longest-substring-without-repeating-characters/README.md)[📝](https://leetcode-cn.com/articles/longest-substring-without-repeating-characters/)|[Python](Problemset/longest-substring-without-repeating-characters/longest-substring-without-repeating-characters.py)|29.8%|中等|[哈希表](https://leetcode-cn.com/tag/hash-table)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)<br>[字符串](https://leetcode-cn.com/tag/string)<br>[None](https://leetcode-cn.com/tag/sliding-window)|
+|0002|[两数相加](Problemset/add-two-numbers/README.md)[📝](https://leetcode-cn.com/articles/add-two-numbers/)|[Python](Problemset/add-two-numbers/add-two-numbers.py)|34.4%|中等|[链表](https://leetcode-cn.com/tag/linked-list)<br>[数学](https://leetcode-cn.com/tag/math)|
+|0001|[两数之和](Problemset/two-sum/README.md)[📝](https://leetcode-cn.com/articles/two-sum/)|[Python](Problemset/two-sum/two-sum.py)|46.1%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[哈希表](https://leetcode-cn.com/tag/hash-table)|
