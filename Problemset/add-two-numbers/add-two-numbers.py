@@ -1,76 +1,80 @@
 
 # @Title: 两数相加 (Add Two Numbers)
 # @Author: 2464512446@qq.com
-# @Date: 2019-03-19 10:11:56
-# @Runtime: 104 ms
-# @Memory: 10.9 MB
+# @Date: 2019-07-09 15:13:51
+# @Runtime: 120 ms
+# @Memory: 13.7 MB
 
-# Definition for singly-linked list.
-# class ListNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
+#
+# @lc app=leetcode.cn id=2 lang=python3
+#
+# [2] 两数相加
+#
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        """
+        
+        """
+        q = l1
+        p = l2
+        r = ListNode(None)
+        head = r
+        carry = 0
+        while (q or p) or carry ==1:
+            if q and p:
+                print(carry)
+                q_tmp = q.val
+                p_tmp = p.val
+                tmp = (q_tmp+p_tmp+carry) %10
+                r.val = tmp
+                carry = 0
+
+
+                carry += 1 if tmp < (q_tmp+p_tmp) else 0
+
+                if q.next or p.next:
+                    r.next = ListNode(None)
+                    r = r.next
+                q = q.next
+                p = p.next
+
+            elif q and not p:
+                tmp = (q.val+carry) %10
+                r.val = tmp
+                carry = 0
+                carry += 1 if tmp < (q.val+carry) else 0
+                q = q.next
+                if q or p:
+                    r.next = ListNode(None)
+                    r = r.next
+               
+
+            elif not q and p:
+                tmp = (p.val+carry) %10
+                r.val = tmp
+                carry = 0
+                carry += 1 if tmp < (p.val+carry) else 0
+
+                p = p.next
+                if q or p:
+                    r.next = ListNode(None)
+                    r = r.next
+
+
+            elif not q and not p:
+                print(carry)
+                r.next = ListNode(None)
+                r = r.next
+                r.val = carry
+                carry = 0
+            
+        return head
+        
+
 
-class Solution(object):
-    def reverseList(self, head):
-
-        if head:
-            p = head
-            q = head.next
-            p.next = None
-
-            while q:
-                r= q.next
-                q.next = p
-                p = q
-                q = r
-            return p
-        else:
-            return None
-
-    def listtoint(self, l):
-        leng = len(l)
-        
-        wei = 10**(leng-1)
-        res = 0
-        for i in range(leng):
-            res += l[i] *wei
-            wei= wei/10
-        return res
-    
-    def addTwoNumbers(self, l1, l2):
-        """
-        :type l1: ListNode
-        :type l2: ListNode
-        :rtype: ListNode
-        """
-        
-        l1 = self.reverseList(l1)     
-        l2 = self.reverseList(l2)
-        num1 = []
-        num2 = []
-        
-        
-        while l1:
-            num1.append(l1.val)
-            l1 = l1.next
-                
-        while l2:
-            num2.append(l2.val)
-            l2 = l2.next
-        
-        
-        res = self.listtoint(num1) + self.listtoint(num2)
-        res = str(res)[::-1]
-        leng =len(res)
-        head = ListNode(int(res[0]))
-        # print head
-        
-        temp = head
-        if head:
-            for i in range(1,leng):
-                temp.next = ListNode(int(res[i]))
-                temp = temp.next
-                
-        return head
-        
