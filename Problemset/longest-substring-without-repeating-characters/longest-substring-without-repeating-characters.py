@@ -1,32 +1,34 @@
 
 # @Title: 无重复字符的最长子串 (Longest Substring Without Repeating Characters)
 # @Author: 2464512446@qq.com
-# @Date: 2019-03-25 11:44:19
-# @Runtime: 80 ms
-# @Memory: 12.1 MB
+# @Date: 2019-07-10 11:51:35
+# @Runtime: 68 ms
+# @Memory: 13.3 MB
 
-class Solution(object):
-    def lengthOfLongestSubstring(self, s):
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
         """
-        :type s: str
-        :rtype: int
+        滑窗法
         """
+        
+        if not s:
+            return 0
 
+        left_index = 0
+        lookup = set()
         leng = len(s)
-        se = set()
-        i, j, ans = 0, 0, 0
-        while i < leng and j < leng:
-#             print s[j]
-            
-            if s[j] not in se:
-                # print j
-                se.add(s[j])
-                ans = max(ans,j-i+1)
-                j += 1
-                
-            else:
-                # print j
-                se.remove(s[i])
-                i +=1
-                
-        return ans
+
+        max_len = 0
+        cur_len = 0
+
+        for i in range(leng):
+            cur_len +=1
+
+            while s[i] in lookup:
+                lookup.remove(s[left_index])
+                left_index += 1
+                cur_len -= 1
+            if cur_len >max_len:
+                max_len = cur_len
+            lookup.add(s[i])
+        return max_len
