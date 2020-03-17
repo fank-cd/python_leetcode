@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [0102. Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+# [102. Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 
 ## Description
 

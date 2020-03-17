@@ -1,7 +1,7 @@
 
 | [English](README_EN.md) | 简体中文 |
 
-# [0101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
+# [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
 
 ## 题目描述
 

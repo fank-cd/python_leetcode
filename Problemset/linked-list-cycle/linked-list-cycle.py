@@ -1,9 +1,9 @@
 
 # @Title: 环形链表 (Linked List Cycle)
 # @Author: 2464512446@qq.com
-# @Date: 2019-03-12 12:56:49
-# @Runtime: 60 ms
-# @Memory: 17.2 MB
+# @Date: 2019-11-13 12:14:19
+# @Runtime: 44 ms
+# @Memory: 18.3 MB
 
 # Definition for singly-linked list.
 # class ListNode(object):
@@ -17,18 +17,21 @@ class Solution(object):
         :type head: ListNode
         :rtype: bool
         """
+        # if not head:
+        #     return False
+        # while head.next and head.val != None:
+        #     head.val = None
+        #     head = head.next
+        # if not head.next:
+        #     return False
+        # return True
 
-        slow = fast =head
-        
-        if head is None:
+        if not isinstance(head,ListNode):
             return False
-        if not head.next or not head.next.next:
-            return False
-        while True:
-            slow = slow.next
-            fast = fast.next.next
-            
-            if slow == fast:
+        p1, p2= head, head.next
+        while p1 and p2 and p2.next:
+            if p1 == p2:
                 return True
-            elif slow is None or fast is None or fast.next is None:
-                return False
+            p1 = p1.next
+            p2 = p2.next.next
+        return False

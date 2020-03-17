@@ -1,7 +1,7 @@
 
 | [English](README_EN.md) | 简体中文 |
 
-# [0175. 组合两个表](https://leetcode-cn.com/problems/combine-two-tables/)
+# [175. 组合两个表](https://leetcode-cn.com/problems/combine-two-tables/)
 
 ## 题目描述
 

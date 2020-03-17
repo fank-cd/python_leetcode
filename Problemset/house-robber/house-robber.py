@@ -1,9 +1,9 @@
 
 # @Title: 打家劫舍 (House Robber)
 # @Author: 2464512446@qq.com
-# @Date: 2018-12-26 15:19:27
-# @Runtime: 24 ms
-# @Memory: 7 MB
+# @Date: 2019-11-13 15:57:10
+# @Runtime: 12 ms
+# @Memory: 11.6 MB
 
 class Solution(object):
     def rob(self, nums):
@@ -11,21 +11,26 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        leng = len(nums)
-        res = [0 for x in range(leng)]
-        
-        if leng >2:
-            res[0] = nums[0]
-            res[1] = max(nums[0],nums[1])
-            
-            for i in range(2,leng):
-                res[i] = max(res[i-2]+nums[i],res[i-1])
-            return res[leng-1]
-        else:
-            if leng == 2:
-                return max(nums[0],nums[1])
-            elif leng ==1:
-                return nums[0]
-            else:
-                return 0
-        
+    #     递归------>会超时，体现不出动态规划的优越性
+    #     if not isinstance(nums,list):
+    #         return None
+    #     if len(nums) == 0:
+    #         return 0
+    #     i = len(nums) -1
+    #     return self.process(i,nums)
+
+    # def process(self,i,nums):
+    #     if i == 0:
+    #         return nums[i]
+    #     if i == 1:
+    #         return max(nums[i],nums[i-1])
+
+    #     return max(self.process(i-2,nums)+nums[i],self.process(i-1,nums))
+
+        cur, pre = 0, 0
+        for num in nums:
+            cur, pre = max(pre + num, cur), cur
+        return cur
+
+
+

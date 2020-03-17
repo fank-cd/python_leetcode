@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [0595. Big Countries](https://leetcode-cn.com/problems/big-countries/)
+# [595. Big Countries](https://leetcode-cn.com/problems/big-countries/)
 
 ## Description
 

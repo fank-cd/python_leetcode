@@ -1,7 +1,7 @@
 
 | [English](README_EN.md) | 简体中文 |
 
-# [0155. 最小栈](https://leetcode-cn.com/problems/min-stack/)
+# [155. 最小栈](https://leetcode-cn.com/problems/min-stack/)
 
 ## 题目描述
 

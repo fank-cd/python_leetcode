@@ -1,7 +1,7 @@
 
 | [English](README_EN.md) | 简体中文 |
 
-# [0182. 查找重复的电子邮箱](https://leetcode-cn.com/problems/duplicate-emails/)
+# [182. 查找重复的电子邮箱](https://leetcode-cn.com/problems/duplicate-emails/)
 
 ## 题目描述
 

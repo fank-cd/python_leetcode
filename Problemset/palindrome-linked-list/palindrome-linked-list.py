@@ -1,9 +1,9 @@
 
 # @Title: 回文链表 (Palindrome Linked List)
 # @Author: 2464512446@qq.com
-# @Date: 2019-03-14 10:44:02
-# @Runtime: 144 ms
-# @Memory: 30.1 MB
+# @Date: 2019-11-19 10:33:55
+# @Runtime: 92 ms
+# @Memory: 31 MB
 
 # Definition for singly-linked list.
 # class ListNode(object):
@@ -17,25 +17,10 @@ class Solution(object):
         :type head: ListNode
         :rtype: bool
         """
-        l = []
+
+        # 思路2： 快慢指针找到中间链表，然后逆序后半部分
+        res = []
         while head:
-            l.append(head.val)
+            res.append(head.val)
             head = head.next
-        leng = len(l)
-        if leng ==1:
-            return True
-        if leng %2 == 0:
-            temp = l[leng/2:]
-            temp.reverse()
-            if l[:leng/2] == temp:
-                return True
-            else:
-                return False
-        else:
-            temp = l[leng/2+1:]
-            temp.reverse()
-            if l[:leng/2] == temp:
-                return True
-            else:
-                return False
-            
+        return res == res[::-1]

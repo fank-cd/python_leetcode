@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [0198. House Robber](https://leetcode-cn.com/problems/house-robber/)
+# [198. House Robber](https://leetcode-cn.com/problems/house-robber/)
 
 ## Description
 

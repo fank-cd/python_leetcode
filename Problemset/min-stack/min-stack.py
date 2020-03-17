@@ -1,59 +1,40 @@
 
 # @Title: 最小栈 (Min Stack)
 # @Author: 2464512446@qq.com
-# @Date: 2018-12-17 10:09:49
-# @Runtime: 120 ms
-# @Memory: 11 MB
+# @Date: 2019-11-06 11:09:28
+# @Runtime: 80 ms
+# @Memory: 15.6 MB
 
-class MinStack(object):
+class MinStack:
 
     def __init__(self):
-        """
-        initialize your data structure here.
-        """
-        self.l = []
-        self.min_l = []
-    
-    
-    def push(self, x):
-        """
-        :type x: int
-        :rtype: void
-        """
-        if not self.min_l:
-            self.min_l.append(x)
-        elif self.min_l[-1] >= x:
-            self.min_l.append(x)
-            
-        self.l.append(x)
+        # 数据栈
+        self.data = []
+        # 辅助栈
+        self.helper = []
 
+    def push(self, x):
+        self.data.append(x)
+        # 关键 1 和关键 2
+        if len(self.helper) == 0 or x <= self.helper[-1]:
+            self.helper.append(x)
 
     def pop(self):
-        """
-        :rtype: void
-        """
-        if self.l[-1] > self.min_l[-1]:
-            pass
-        elif self.l[-1] == self.min_l[-1]:
-            self.min_l.pop()
-        
-        return self.l.pop()
-        
-    def top(self):
-        """
-        :rtype: int
-        """
-        return self.l[-1]
+        # 关键 3：【注意】不论怎么样，数据栈都要 pop 出元素
+        if self.data:
+            top = self.data.pop()
 
-        
+            if self.helper and top == self.helper[-1]:
+                self.helper.pop()
+            return top
+
+    def top(self):
+        if self.data:
+            return self.data[-1]
 
     def getMin(self):
-        """
-        :rtype: int
-        """
-        print self.min_l
-        return self.min_l[-1]
-        
+        if self.helper:
+            return self.helper[-1]
 
 
 # Your MinStack object will be instantiated and called as such:

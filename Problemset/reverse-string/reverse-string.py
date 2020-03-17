@@ -1,14 +1,19 @@
 
 # @Title: 反转字符串 (Reverse String)
 # @Author: 2464512446@qq.com
-# @Date: 2018-10-10 11:40:53
-# @Runtime: 36 ms
-# @Memory: N/A
+# @Date: 2019-10-08 16:18:32
+# @Runtime: 180 ms
+# @Memory: 18.8 MB
 
 class Solution(object):
     def reverseString(self, s):
         """
-        :type s: str
-        :rtype: str
+        :type s: List[str]
+        :rtype: None Do not return anything, modify s in-place instead.
         """
-        return s[::-1]
+        i,j = 0,len(s)-1
+
+        while i <j:
+            s[i],s[j] = s[j],s[i]
+            i+=1
+            j -=1

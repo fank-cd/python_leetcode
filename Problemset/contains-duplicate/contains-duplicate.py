@@ -1,9 +1,9 @@
 
 # @Title: 存在重复元素 (Contains Duplicate)
 # @Author: 2464512446@qq.com
-# @Date: 2018-03-23 14:39:03
-# @Runtime: 48 ms
-# @Memory: N/A
+# @Date: 2019-11-06 10:43:34
+# @Runtime: 120 ms
+# @Memory: 17.2 MB
 
 class Solution(object):
     def containsDuplicate(self, nums):
@@ -11,8 +11,4 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
-        if len(nums) > len(set(nums)):
-            return True
-        else:
-            return False
-        
+        return len(nums) != len(list(set(nums)))

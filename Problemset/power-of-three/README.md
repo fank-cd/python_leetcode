@@ -1,7 +1,7 @@
 
 | [English](README_EN.md) | 简体中文 |
 
-# [0326. 3的幂](https://leetcode-cn.com/problems/power-of-three/)
+# [326. 3的幂](https://leetcode-cn.com/problems/power-of-three/)
 
 ## 题目描述
 

@@ -1,9 +1,9 @@
 
 # @Title: 反转链表 (Reverse Linked List)
 # @Author: 2464512446@qq.com
-# @Date: 2018-11-19 14:40:21
-# @Runtime: 32 ms
-# @Memory: N/A
+# @Date: 2019-08-28 16:08:04
+# @Runtime: 24 ms
+# @Memory: 13.5 MB
 
 # Definition for singly-linked list.
 # class ListNode(object):
@@ -17,16 +17,8 @@ class Solution(object):
         :type head: ListNode
         :rtype: ListNode
         """
-        if head:
-            p = head
-            q = head.next
-            p.next = None
+        p, rev = head, None
+        while p:
+            rev, rev.next, p = p, rev, p.next
 
-            while q:
-                r= q.next
-                q.next = p
-                p = q
-                q = r
-            return p
-        else:
-            return None
+        return rev

@@ -1,9 +1,9 @@
 
 # @Title: 有效的括号 (Valid Parentheses)
 # @Author: 2464512446@qq.com
-# @Date: 2019-03-05 10:40:17
-# @Runtime: 36 ms
-# @Memory: 10.8 MB
+# @Date: 2019-11-14 14:34:29
+# @Runtime: 20 ms
+# @Memory: 11.8 MB
 
 class Solution(object):
     def isValid(self, s):
@@ -11,23 +11,17 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        l = []
-        left = "({["
-        right = ")]}"
-        
-        
-        d = {")":"(","}":"{","]":"["}
+        res = []
+        d = {
+            "]":"[",
+            ")":"(",
+            "}":"{",
+        }
         for i in s:
-            # print(i)
-            if i in d.values():
-                l.append(i)
-                # print l[:-1]
-
-            elif i in d.keys() and l and d[i]==l[len(l)-1]:
-                l.pop()
-                # print "OK"
+            if i in d:
+                top = res.pop() if res else '#'
+                if d[i] != top:
+                    return False
             else:
-                return False
-            
-        return not l
-                    
+                 res.append(i)
+        return not res

@@ -1,7 +1,7 @@
 
 | [English](README_EN.md) | 简体中文 |
 
-# [0069. x 的平方根](https://leetcode-cn.com/problems/sqrtx/)
+# [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/)
 
 ## 题目描述
 

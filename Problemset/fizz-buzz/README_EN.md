@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [0412. Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/)
+# [412. Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/)
 
 ## Description
 

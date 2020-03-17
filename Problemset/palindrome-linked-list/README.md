@@ -1,7 +1,7 @@
 
 | [English](README_EN.md) | 简体中文 |
 
-# [0234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
+# [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
 
 ## 题目描述
 

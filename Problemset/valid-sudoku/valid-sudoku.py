@@ -1,38 +1,37 @@
 
 # @Title: 有效的数独 (Valid Sudoku)
 # @Author: 2464512446@qq.com
-# @Date: 2019-03-07 11:19:25
+# @Date: 2019-12-13 14:53:41
 # @Runtime: 84 ms
-# @Memory: 10.7 MB
+# @Memory: 11.9 MB
 
-class Solution(object):
+class Solution:
     def isValidSudoku(self, board):
         """
         :type board: List[List[str]]
         :rtype: bool
         """
+        # init data
+        rows = [{} for i in range(9)]
+        columns = [{} for i in range(9)]
+        boxes = [{} for i in range(9)]
 
-        row = [{} for i in range(9)]
-        column = [{} for i in range(9)]
-        box = [{} for i in range(9)]
-        
+        # validate a board
         for i in range(9):
             for j in range(9):
                 num = board[i][j]
-                if num != ".":
+                if num != '.':
                     num = int(num)
-                    box_index = (i//3)*3 + j//3
+                    box_index = (i // 3 ) * 3 + j // 3
+                    # print box_index
                     
+                    # keep the current cell value
+                    rows[i][num] = rows[i].get(num, 0) + 1
+                    columns[j][num] = columns[j].get(num, 0) + 1
+                    boxes[box_index][num] = boxes[box_index].get(num, 0) + 1
                     
-                    row[i][num] = row[i].get(num,0) +1
-
-                    column[j][num] = column[j].get(num,0) +1
-
-                    box[box_index][num] = box[box_index].get(num,0) +1
-
-
-                    if row[i][num] > 1 or column[j][num] >1 or box[box_index][num] >1:
-                        return False
-                    
-                    
+                    # check if this value has been already seen before
+                    if rows[i][num] > 1 or columns[j][num] > 1 or boxes[box_index][num] > 1:
+                        return False         
         return True
+

@@ -1,28 +1,23 @@
 
 # @Title: 买卖股票的最佳时机 (Best Time to Buy and Sell Stock)
 # @Author: 2464512446@qq.com
-# @Date: 2019-03-12 11:37:44
-# @Runtime: 28 ms
-# @Memory: 11.1 MB
+# @Date: 2019-11-04 18:17:56
+# @Runtime: 84 ms
+# @Memory: 12.5 MB
 
 class Solution(object):
-    
-    
-    
     def maxProfit(self, prices):
         """
         :type prices: List[int]
         :rtype: int
         """
-        minprice = 2**31
-        # maxprice = 0
+        max_profit = 0
+        min_price = float("inf")
         
-        maxprofit = 0
         for i in prices:
-            if i < minprice:
-                minprice = i
-            elif i - minprice > maxprofit:
-                    maxprofit = i - minprice
-            
-        return maxprofit
+            if i < min_price:
+                min_price = i
+            if i - min_price > max_profit:
+                max_profit = i - min_price
                 
+        return max_profit

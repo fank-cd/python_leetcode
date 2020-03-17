@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [0069. Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/)
+# [69. Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/)
 
 ## Description
 

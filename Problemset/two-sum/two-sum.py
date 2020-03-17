@@ -1,30 +1,29 @@
 
 # @Title: 两数之和 (Two Sum)
 # @Author: 2464512446@qq.com
-# @Date: 2019-07-09 11:30:24
-# @Runtime: 60 ms
-# @Memory: 14.2 MB
+# @Date: 2019-11-11 15:03:20
+# @Runtime: 36 ms
+# @Memory: 13.2 MB
 
-#
-# @lc app=leetcode.cn id=1 lang=python3
-#
-# [1] 两数之和
-#
-class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        """
-        用字典来保存列表的值和下标，值为key，下标为value
-        遍历一次后去字典中中key，找到则返回下标
-        一边遍历一边生成，还可以避免重复的情况
-        """
-        
-        n = len(nums)
-        lookup = {}
-        for i in range(n):
-            tmp = target - nums[i]
-            if tmp in lookup:
-                return [lookup[tmp], i]
-            lookup[nums[i]] = i
-
-
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
 
+        dct = {} # 用字典来存储值和对应的index
+        for i, n in enumerate(nums):
+            if target - n in dct: # 达成条件
+                return [dct[target - n], i]
+            dct[n] = i
+        
+        
+        # d = {}
+        # for index,i in enumerate(nums):
+        #     num = target - i 
+        #     if num not in d:
+        #         d[i] =index
+        #     else:
+        #         return [d[num],index]

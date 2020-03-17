@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [0620. Not Boring Movies](https://leetcode-cn.com/problems/not-boring-movies/)
+# [620. Not Boring Movies](https://leetcode-cn.com/problems/not-boring-movies/)
 
 ## Description
 

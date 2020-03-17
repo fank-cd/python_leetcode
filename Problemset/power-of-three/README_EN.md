@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [0326. Power of Three](https://leetcode-cn.com/problems/power-of-three/)
+# [326. Power of Three](https://leetcode-cn.com/problems/power-of-three/)
 
 ## Description
 

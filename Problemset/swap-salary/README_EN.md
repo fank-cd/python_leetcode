@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [0627. Swap Salary](https://leetcode-cn.com/problems/swap-salary/)
+# [627. Swap Salary](https://leetcode-cn.com/problems/swap-salary/)
 
 ## Description
 

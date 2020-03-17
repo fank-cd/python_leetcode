@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [0155. Min Stack](https://leetcode-cn.com/problems/min-stack/)
+# [155. Min Stack](https://leetcode-cn.com/problems/min-stack/)
 
 ## Description
 

@@ -1,8 +1,8 @@
 
-# @Title: 实现strStr() (Implement strStr())
+# @Title: 实现 strStr() (Implement strStr())
 # @Author: 2464512446@qq.com
-# @Date: 2019-03-06 11:09:36
-# @Runtime: 464 ms
+# @Date: 2019-11-19 11:09:09
+# @Runtime: 24 ms
 # @Memory: 12.1 MB
 
 class Solution(object):
@@ -11,25 +11,18 @@ class Solution(object):
         :type haystack: str
         :type needle: str
         :rtype: int
-        
         """
+        # if not len(needle):
+        #     return 0
+        # leng = len(needle)
+        # res = 0
+        # for i in range(len(haystack)):
+        #     if haystack[i:i+leng] == needle:
+        #         return i
+        # return -1
 
-        
-        needle_len = len(needle)
-        haystack_len = len(haystack)
-        if needle_len ==0 and haystack_len ==0 :
-            return 0
-        
-        if needle_len == 0:
-            return 0
-        state = False
-        
-        for i in range(haystack_len):
-            if  haystack[i] == needle[0]:
-                if haystack[i:i+needle_len] == needle:
-                    state = True
-                    return i
-        
-
-        if not state:
+        # 无赖版本：
+        try:
+            return haystack.index(needle)
+        except:
             return -1

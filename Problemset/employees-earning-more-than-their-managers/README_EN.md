@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [0181. Employees Earning More Than Their Managers](https://leetcode-cn.com/problems/employees-earning-more-than-their-managers/)
+# [181. Employees Earning More Than Their Managers](https://leetcode-cn.com/problems/employees-earning-more-than-their-managers/)
 
 ## Description
 

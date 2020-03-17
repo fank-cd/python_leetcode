@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [0182. Duplicate Emails](https://leetcode-cn.com/problems/duplicate-emails/)
+# [182. Duplicate Emails](https://leetcode-cn.com/problems/duplicate-emails/)
 
 ## Description
 

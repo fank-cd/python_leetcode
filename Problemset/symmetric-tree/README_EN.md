@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [0101. Symmetric Tree](https://leetcode-cn.com/problems/symmetric-tree/)
+# [101. Symmetric Tree](https://leetcode-cn.com/problems/symmetric-tree/)
 
 ## Description
 
