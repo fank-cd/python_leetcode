@@ -4,16 +4,16 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/用户-fank_cd-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/已解决-136/1572-blue.svg?" alt="">
+    <img src="https://img.shields.io/badge/已解决-137/1572-blue.svg?" alt="">
     <img src="https://img.shields.io/badge/简单-96-green.svg?" alt="">
-    <img src="https://img.shields.io/badge/中等-39-orange.svg?" alt="">
+    <img src="https://img.shields.io/badge/中等-40-orange.svg?" alt="">
     <img src="https://img.shields.io/badge/困难-1-red.svg?" alt="">
 </p>
 <h1 align="center">LeetCode 的解答</h1>
 
 <p align="center">
     <br>
-    <b>最近一次更新: 2020-03-17 16:03:59</b>
+    <b>最近一次更新: 2020-03-17 18:30:01</b>
     <br>
 </p>
 <!--请保留下面这行信息，让更多用户了解到这个小爬虫，衷心感谢您的支持-->
@@ -21,7 +21,8 @@
 
 | # | 题名 | 解答 | 通过率 | 难度 | 标签 |
 |:--:|:-----|:---------:|:----:|:----:|:----:|
-|面试题06|[从尾到头打印链表](Problemset/cong-wei-dao-tou-da-yin-lian-biao-lcof/README.md)|[Python](Problemset/cong-wei-dao-tou-da-yin-lian-biao-lcof/cong-wei-dao-tou-da-yin-lian-biao-lcof.py)|76.8%|简单||
+|面试题07|[重建二叉树](Problemset/zhong-jian-er-cha-shu-lcof/README.md)|[Python](Problemset/zhong-jian-er-cha-shu-lcof/zhong-jian-er-cha-shu-lcof.py)|68.2%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[递归](https://leetcode-cn.com/tag/recursion)|
+|面试题06|[从尾到头打印链表](Problemset/cong-wei-dao-tou-da-yin-lian-biao-lcof/README.md)|[Python](Problemset/cong-wei-dao-tou-da-yin-lian-biao-lcof/cong-wei-dao-tou-da-yin-lian-biao-lcof.py)|76.7%|简单||
 |面试题05|[替换空格](Problemset/ti-huan-kong-ge-lcof/README.md)|[Python](Problemset/ti-huan-kong-ge-lcof/ti-huan-kong-ge-lcof.py)|77.7%|简单||
 |面试题04|[二维数组中的查找](Problemset/er-wei-shu-zu-zhong-de-cha-zhao-lcof/README.md)|[Python](Problemset/er-wei-shu-zu-zhong-de-cha-zhao-lcof/er-wei-shu-zu-zhong-de-cha-zhao-lcof.py)|40.7%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
 |面试题03|[数组中重复的数字](Problemset/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/README.md)|[Python](Problemset/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/shu-zu-zhong-zhong-fu-de-shu-zi-lcof.py)|67.6%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[哈希表](https://leetcode-cn.com/tag/hash-table)|
@@ -48,7 +49,7 @@
 |700|[二叉搜索树中的搜索](Problemset/search-in-a-binary-search-tree/README.md)|[Python](Problemset/search-in-a-binary-search-tree/search-in-a-binary-search-tree.py)|72.5%|简单|[树](https://leetcode-cn.com/tag/tree)|
 |771|[宝石与石头](Problemset/jewels-and-stones/README.md)|[Python](Problemset/jewels-and-stones/jewels-and-stones.py)|81.9%|简单|[哈希表](https://leetcode-cn.com/tag/hash-table)|
 |590|[N叉树的后序遍历](Problemset/n-ary-tree-postorder-traversal/README.md)|[Python](Problemset/n-ary-tree-postorder-traversal/n-ary-tree-postorder-traversal.py)|72.5%|简单|[树](https://leetcode-cn.com/tag/tree)|
-|589|[N叉树的前序遍历](Problemset/n-ary-tree-preorder-traversal/README.md)|[Python](Problemset/n-ary-tree-preorder-traversal/n-ary-tree-preorder-traversal.py)|72.4%|简单|[树](https://leetcode-cn.com/tag/tree)|
+|589|[N叉树的前序遍历](Problemset/n-ary-tree-preorder-traversal/README.md)|[Python](Problemset/n-ary-tree-preorder-traversal/n-ary-tree-preorder-traversal.py)|72.5%|简单|[树](https://leetcode-cn.com/tag/tree)|
 |559|[N叉树的最大深度](Problemset/maximum-depth-of-n-ary-tree/README.md)❤️|[Python](Problemset/maximum-depth-of-n-ary-tree/maximum-depth-of-n-ary-tree.py)|68.6%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
 |709|[转换成小写字母](Problemset/to-lower-case/README.md)|[Python](Problemset/to-lower-case/to-lower-case.py)|75.3%|简单|[字符串](https://leetcode-cn.com/tag/string)|
 |728|[自除数](Problemset/self-dividing-numbers/README.md)|[Python](Problemset/self-dividing-numbers/self-dividing-numbers.py)|72.7%|简单|[数学](https://leetcode-cn.com/tag/math)|
@@ -64,7 +65,7 @@
 |535|[TinyURL 的加密与解密](Problemset/encode-and-decode-tinyurl/README.md)|[Python](Problemset/encode-and-decode-tinyurl/encode-and-decode-tinyurl.py)|81.3%|中等|[哈希表](https://leetcode-cn.com/tag/hash-table)<br>[数学](https://leetcode-cn.com/tag/math)|
 |500|[键盘行](Problemset/keyboard-row/README.md)|[Python](Problemset/keyboard-row/keyboard-row.py)|68.5%|简单|[哈希表](https://leetcode-cn.com/tag/hash-table)|
 |476|[数字的补数](Problemset/number-complement/README.md)|[Python](Problemset/number-complement/number-complement.py)|68.3%|简单|[位运算](https://leetcode-cn.com/tag/bit-manipulation)|
-|461|[汉明距离](Problemset/hamming-distance/README.md)|[Python](Problemset/hamming-distance/hamming-distance.py)|75.2%|简单|[位运算](https://leetcode-cn.com/tag/bit-manipulation)|
+|461|[汉明距离](Problemset/hamming-distance/README.md)|[Python](Problemset/hamming-distance/hamming-distance.py)|75.3%|简单|[位运算](https://leetcode-cn.com/tag/bit-manipulation)|
 |454|[四数相加 II](Problemset/4sum-ii/README.md)|[Python](Problemset/4sum-ii/4sum-ii.py)|54.4%|中等|[哈希表](https://leetcode-cn.com/tag/hash-table)<br>[二分查找](https://leetcode-cn.com/tag/binary-search)|
 |448|[找到所有数组中消失的数字](Problemset/find-all-numbers-disappeared-in-an-array/README.md)|[Python](Problemset/find-all-numbers-disappeared-in-an-array/find-all-numbers-disappeared-in-an-array.py)|57.0%|简单|[数组](https://leetcode-cn.com/tag/array)|
 |412|[Fizz Buzz](Problemset/fizz-buzz/README.md)|[Python](Problemset/fizz-buzz/fizz-buzz.py)|63.0%|简单||
@@ -79,9 +80,9 @@
 |328|[奇偶链表](Problemset/odd-even-linked-list/README.md)|[Python](Problemset/odd-even-linked-list/odd-even-linked-list.py)|61.7%|中等|[链表](https://leetcode-cn.com/tag/linked-list)|
 |326|[3的幂](Problemset/power-of-three/README.md)|[Python](Problemset/power-of-three/power-of-three.py)|46.7%|简单|[数学](https://leetcode-cn.com/tag/math)|
 |292|[Nim 游戏](Problemset/nim-game/README.md)|[Python](Problemset/nim-game/nim-game.py)|69.7%|简单|[脑筋急转弯](https://leetcode-cn.com/tag/brainteaser)<br>[极小化极大](https://leetcode-cn.com/tag/minimax)|
-|289|[生命游戏](Problemset/game-of-life/README.md)|[Python](Problemset/game-of-life/game-of-life.py)|69.7%|中等|[数组](https://leetcode-cn.com/tag/array)|
+|289|[生命游戏](Problemset/game-of-life/README.md)|[Python](Problemset/game-of-life/game-of-life.py)|69.6%|中等|[数组](https://leetcode-cn.com/tag/array)|
 |287|[寻找重复数](Problemset/find-the-duplicate-number/README.md)|[Python](Problemset/find-the-duplicate-number/find-the-duplicate-number.py)|63.3%|中等|[数组](https://leetcode-cn.com/tag/array)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)<br>[二分查找](https://leetcode-cn.com/tag/binary-search)|
-|283|[移动零](Problemset/move-zeroes/README.md)|[Python](Problemset/move-zeroes/move-zeroes.py)|59.9%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
+|283|[移动零](Problemset/move-zeroes/README.md)|[Python](Problemset/move-zeroes/move-zeroes.py)|60.0%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
 |279|[完全平方数](Problemset/perfect-squares/README.md)|[Python](Problemset/perfect-squares/perfect-squares.py)|54.7%|中等|[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)<br>[数学](https://leetcode-cn.com/tag/math)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |268|[缺失数字](Problemset/missing-number/README.md)|[Python](Problemset/missing-number/missing-number.py)|54.6%|简单|[位运算](https://leetcode-cn.com/tag/bit-manipulation)<br>[数组](https://leetcode-cn.com/tag/array)<br>[数学](https://leetcode-cn.com/tag/math)|
 |242|[有效的字母异位词](Problemset/valid-anagram/README.md)|[Python](Problemset/valid-anagram/valid-anagram.py)|58.9%|简单|[排序](https://leetcode-cn.com/tag/sort)<br>[哈希表](https://leetcode-cn.com/tag/hash-table)|
@@ -95,9 +96,9 @@
 |225|[用队列实现栈](Problemset/implement-stack-using-queues/README.md)|[Python](Problemset/implement-stack-using-queues/implement-stack-using-queues.py)|64.2%|简单|[栈](https://leetcode-cn.com/tag/stack)<br>[设计](https://leetcode-cn.com/tag/design)|
 |217|[存在重复元素](Problemset/contains-duplicate/README.md)|[Python](Problemset/contains-duplicate/contains-duplicate.py)|51.7%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[哈希表](https://leetcode-cn.com/tag/hash-table)|
 |215|[数组中的第K个最大元素](Problemset/kth-largest-element-in-an-array/README.md)|[Python](Problemset/kth-largest-element-in-an-array/kth-largest-element-in-an-array.py)|61.6%|中等|[堆](https://leetcode-cn.com/tag/heap)<br>[分治算法](https://leetcode-cn.com/tag/divide-and-conquer)|
-|208|[实现 Trie (前缀树)](Problemset/implement-trie-prefix-tree/README.md)|[Python](Problemset/implement-trie-prefix-tree/implement-trie-prefix-tree.py)|65.3%|中等|[设计](https://leetcode-cn.com/tag/design)<br>[字典树](https://leetcode-cn.com/tag/trie)|
+|208|[实现 Trie (前缀树)](Problemset/implement-trie-prefix-tree/README.md)|[Python](Problemset/implement-trie-prefix-tree/implement-trie-prefix-tree.py)|65.4%|中等|[设计](https://leetcode-cn.com/tag/design)<br>[字典树](https://leetcode-cn.com/tag/trie)|
 |206|[反转链表](Problemset/reverse-linked-list/README.md)|[Python](Problemset/reverse-linked-list/reverse-linked-list.py)|68.1%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
-|202|[快乐数](Problemset/happy-number/README.md)|[Python](Problemset/happy-number/happy-number.py)|57.5%|简单|[哈希表](https://leetcode-cn.com/tag/hash-table)<br>[数学](https://leetcode-cn.com/tag/math)|
+|202|[快乐数](Problemset/happy-number/README.md)|[Python](Problemset/happy-number/happy-number.py)|57.6%|简单|[哈希表](https://leetcode-cn.com/tag/hash-table)<br>[数学](https://leetcode-cn.com/tag/math)|
 |198|[打家劫舍](Problemset/house-robber/README.md)❤️|[Python](Problemset/house-robber/house-robber.py)|43.5%|简单|[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |191|[位1的个数](Problemset/number-of-1-bits/README.md)|[Python](Problemset/number-of-1-bits/number-of-1-bits.py)|65.4%|简单|[位运算](https://leetcode-cn.com/tag/bit-manipulation)|
 |189|[旋转数组](Problemset/rotate-array/README.md)|[Python](Problemset/rotate-array/rotate-array.py)|40.8%|简单|[数组](https://leetcode-cn.com/tag/array)|
@@ -107,7 +108,7 @@
 |172|[阶乘后的零](Problemset/factorial-trailing-zeroes/README.md)|[Python](Problemset/factorial-trailing-zeroes/factorial-trailing-zeroes.py)|39.8%|简单|[数学](https://leetcode-cn.com/tag/math)|
 |171|[Excel表列序号](Problemset/excel-sheet-column-number/README.md)|[Python](Problemset/excel-sheet-column-number/excel-sheet-column-number.py)|66.8%|简单|[数学](https://leetcode-cn.com/tag/math)|
 |169|[多数元素](Problemset/majority-element/README.md)|[Python](Problemset/majority-element/majority-element.py)|62.7%|简单|[位运算](https://leetcode-cn.com/tag/bit-manipulation)<br>[数组](https://leetcode-cn.com/tag/array)<br>[分治算法](https://leetcode-cn.com/tag/divide-and-conquer)|
-|160|[相交链表](Problemset/intersection-of-two-linked-lists/README.md)|[Python](Problemset/intersection-of-two-linked-lists/intersection-of-two-linked-lists.py)|53.2%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
+|160|[相交链表](Problemset/intersection-of-two-linked-lists/README.md)|[Python](Problemset/intersection-of-two-linked-lists/intersection-of-two-linked-lists.py)|53.3%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |155|[最小栈](Problemset/min-stack/README.md)|[Python](Problemset/min-stack/min-stack.py)|52.0%|简单|[栈](https://leetcode-cn.com/tag/stack)<br>[设计](https://leetcode-cn.com/tag/design)|
 |148|[排序链表](Problemset/sort-list/README.md)|[Python](Problemset/sort-list/sort-list.py)|64.3%|中等|[排序](https://leetcode-cn.com/tag/sort)<br>[链表](https://leetcode-cn.com/tag/linked-list)|
 |145|[二叉树的后序遍历](Problemset/binary-tree-postorder-traversal/README.md)|[Python](Problemset/binary-tree-postorder-traversal/binary-tree-postorder-traversal.py)|70.6%|困难|[栈](https://leetcode-cn.com/tag/stack)<br>[树](https://leetcode-cn.com/tag/tree)|
@@ -120,7 +121,7 @@
 |121|[买卖股票的最佳时机](Problemset/best-time-to-buy-and-sell-stock/README.md)|[Python](Problemset/best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.py)|53.7%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |118|[杨辉三角](Problemset/pascals-triangle/README.md)|[Python](Problemset/pascals-triangle/pascals-triangle.py)|66.0%|简单|[数组](https://leetcode-cn.com/tag/array)|
 |108|[将有序数组转换为二叉搜索树](Problemset/convert-sorted-array-to-binary-search-tree/README.md)❤️|[Python](Problemset/convert-sorted-array-to-binary-search-tree/convert-sorted-array-to-binary-search-tree.py)|69.8%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)|
-|105|[从前序与中序遍历序列构造二叉树](Problemset/construct-binary-tree-from-preorder-and-inorder-traversal/README.md)|[Python](Problemset/construct-binary-tree-from-preorder-and-inorder-traversal/construct-binary-tree-from-preorder-and-inorder-traversal.py)|64.5%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)<br>[数组](https://leetcode-cn.com/tag/array)|
+|105|[从前序与中序遍历序列构造二叉树](Problemset/construct-binary-tree-from-preorder-and-inorder-traversal/README.md)|[Python](Problemset/construct-binary-tree-from-preorder-and-inorder-traversal/construct-binary-tree-from-preorder-and-inorder-traversal.py)|64.6%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)<br>[数组](https://leetcode-cn.com/tag/array)|
 |104|[二叉树的最大深度](Problemset/maximum-depth-of-binary-tree/README.md)|[Python](Problemset/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.py)|72.5%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)|
 |103|[二叉树的锯齿形层次遍历](Problemset/binary-tree-zigzag-level-order-traversal/README.md)|[Python](Problemset/binary-tree-zigzag-level-order-traversal/binary-tree-zigzag-level-order-traversal.py)|53.9%|中等|[栈](https://leetcode-cn.com/tag/stack)<br>[树](https://leetcode-cn.com/tag/tree)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
 |102|[二叉树的层次遍历](Problemset/binary-tree-level-order-traversal/README.md)|[Python](Problemset/binary-tree-level-order-traversal/binary-tree-level-order-traversal.py)|61.2%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
@@ -143,10 +144,10 @@
 |40|[组合总和 II](Problemset/combination-sum-ii/README.md)|[Python](Problemset/combination-sum-ii/combination-sum-ii.py)|60.7%|中等|[数组](https://leetcode-cn.com/tag/array)<br>[回溯算法](https://leetcode-cn.com/tag/backtracking)|
 |39|[组合总和](Problemset/combination-sum/README.md)|[Python](Problemset/combination-sum/combination-sum.py)|68.6%|中等|[数组](https://leetcode-cn.com/tag/array)<br>[回溯算法](https://leetcode-cn.com/tag/backtracking)|
 |38|[外观数列](Problemset/count-and-say/README.md)|[Python](Problemset/count-and-say/count-and-say.py)|54.6%|简单|[字符串](https://leetcode-cn.com/tag/string)|
-|36|[有效的数独](Problemset/valid-sudoku/README.md)|[Python](Problemset/valid-sudoku/valid-sudoku.py)|58.8%|中等|[哈希表](https://leetcode-cn.com/tag/hash-table)|
+|36|[有效的数独](Problemset/valid-sudoku/README.md)|[Python](Problemset/valid-sudoku/valid-sudoku.py)|58.7%|中等|[哈希表](https://leetcode-cn.com/tag/hash-table)|
 |28|[实现 strStr()](Problemset/implement-strstr/README.md)|[Python](Problemset/implement-strstr/implement-strstr.py)|39.6%|简单|[双指针](https://leetcode-cn.com/tag/two-pointers)<br>[字符串](https://leetcode-cn.com/tag/string)|
 |26|[删除排序数组中的重复项](Problemset/remove-duplicates-from-sorted-array/README.md)|[Python](Problemset/remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.py)|49.1%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
-|22|[括号生成](Problemset/generate-parentheses/README.md)|[Python](Problemset/generate-parentheses/generate-parentheses.py)|73.5%|中等|[字符串](https://leetcode-cn.com/tag/string)<br>[回溯算法](https://leetcode-cn.com/tag/backtracking)|
+|22|[括号生成](Problemset/generate-parentheses/README.md)|[Python](Problemset/generate-parentheses/generate-parentheses.py)|73.6%|中等|[字符串](https://leetcode-cn.com/tag/string)<br>[回溯算法](https://leetcode-cn.com/tag/backtracking)|
 |21|[合并两个有序链表](Problemset/merge-two-sorted-lists/README.md)|[Python](Problemset/merge-two-sorted-lists/merge-two-sorted-lists.py)|60.4%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |20|[有效的括号](Problemset/valid-parentheses/README.md)|[Python](Problemset/valid-parentheses/valid-parentheses.py)|41.1%|简单|[栈](https://leetcode-cn.com/tag/stack)<br>[字符串](https://leetcode-cn.com/tag/string)|
 |18|[四数之和](Problemset/4sum/README.md)|[Python](Problemset/4sum/4sum.py)|37.4%|中等|[数组](https://leetcode-cn.com/tag/array)<br>[哈希表](https://leetcode-cn.com/tag/hash-table)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
