@@ -1,5 +1,5 @@
 
-# @Title: 反转链表 (Reverse Linked List)
+# @Title: 反转链表 (反转链表 LCOF)
 # @Author: 2464512446@qq.com
 # @Date: 2020-04-20 17:19:13
 # @Runtime: 44 ms

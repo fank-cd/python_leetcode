@@ -31,7 +31,7 @@
 
 ## 相似题目
 
-- [乘积最大子序列](../maximum-product-subarray/README.md)
+- [乘积最大子数组](../maximum-product-subarray/README.md)
 - [打家劫舍 II](../house-robber-ii/README.md)
 - [粉刷房子](../paint-house/README.md)
 - [栅栏涂色](../paint-fence/README.md)

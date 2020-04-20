@@ -35,4 +35,4 @@
 
 ## 相似题目
 
-- [二叉树的层次遍历](../binary-tree-level-order-traversal/README.md)
+- [二叉树的层序遍历](../binary-tree-level-order-traversal/README.md)

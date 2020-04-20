@@ -28,6 +28,6 @@
 ## 相似题目
 
 - [买卖股票的最佳时机](../best-time-to-buy-and-sell-stock/README.md)
-- [乘积最大子序列](../maximum-product-subarray/README.md)
+- [乘积最大子数组](../maximum-product-subarray/README.md)
 - [数组的度](../degree-of-an-array/README.md)
 - [最长湍流子数组](../longest-turbulent-subarray/README.md)

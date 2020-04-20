@@ -1,5 +1,5 @@
 
-# @Title: 二叉树的层次遍历 (Binary Tree Level Order Traversal)
+# @Title: 二叉树的层序遍历 (Binary Tree Level Order Traversal)
 # @Author: 2464512446@qq.com
 # @Date: 2019-12-09 16:00:56
 # @Runtime: 24 ms

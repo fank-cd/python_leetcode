@@ -31,8 +31,7 @@
 
 <p>&nbsp;</p>
 
-<p><b>Note:</b><br />
-Bonus points if you could solve it both recursively and iteratively.</p>
+<p><b>Follow up:</b> Solve it both recursively and iteratively.</p>
 
 
 ## Related Topics
