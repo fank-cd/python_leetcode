@@ -37,4 +37,4 @@
 - [最接近的二叉搜索树值 II](../closest-binary-search-tree-value-ii/README.md)
 - [二叉搜索树中的顺序后继](../inorder-successor-in-bst/README.md)
 - [将二叉搜索树转化为排序的双向链表](../convert-binary-search-tree-to-sorted-doubly-linked-list/README.md)
-- [二叉搜索树结点最小距离](../minimum-distance-between-bst-nodes/README.md)
+- [二叉搜索树节点最小距离](../minimum-distance-between-bst-nodes/README.md)
