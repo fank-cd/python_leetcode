@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-04-01 15:48:59
 # @Runtime: 68 ms
-# @Memory: 13.8 MB
+# @Memory: 13.5 MB
 
 class Solution:
     def hanota(self, A: List[int], B: List[int], C: List[int]) -> None:

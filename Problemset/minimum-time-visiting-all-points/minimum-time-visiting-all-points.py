@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-12-17 10:16:27
 # @Runtime: 48 ms
-# @Memory: 11.8 MB
+# @Memory: 11.5 MB
 
 class Solution:
     def minTimeToVisitAllPoints(self, points):

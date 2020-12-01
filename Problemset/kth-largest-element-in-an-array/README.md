@@ -33,5 +33,5 @@
 - [摆动排序 II](../wiggle-sort-ii/README.md)
 - [前 K 个高频元素](../top-k-frequent-elements/README.md)
 - [第三大的数](../third-maximum-number/README.md)
-- [数据流中的第K大元素](../kth-largest-element-in-a-stream/README.md)
+- [数据流中的第 K 大元素](../kth-largest-element-in-a-stream/README.md)
 - [最接近原点的 K 个点](../k-closest-points-to-origin/README.md)

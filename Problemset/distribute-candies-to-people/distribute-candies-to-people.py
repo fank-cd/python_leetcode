@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-03-05 10:35:35
 # @Runtime: 32 ms
-# @Memory: 11.8 MB
+# @Memory: 11.5 MB
 
 class Solution(object):
     def distributeCandies(self, candies, num_people):

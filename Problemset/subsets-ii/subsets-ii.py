@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-11-29 17:54:41
 # @Runtime: 20 ms
-# @Memory: 11.7 MB
+# @Memory: 11.5 MB
 
 class Solution(object):
     def subsetsWithDup(self, nums):

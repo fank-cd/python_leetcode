@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-04-02 10:54:08
 # @Runtime: 248 ms
-# @Memory: 14 MB
+# @Memory: 13.6 MB
 
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:

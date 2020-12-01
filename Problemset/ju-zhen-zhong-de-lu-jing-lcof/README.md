@@ -1,7 +1,7 @@
 
 | [English](README_EN.md) | 简体中文 |
 
-# [面试题12. 矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/)
+# [剑指 Offer 12. 矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/)
 
 ## 题目描述
 
@@ -39,7 +39,7 @@
 
 ## 相关话题
 
-- [动态规划](https://leetcode-cn.com/tag/dynamic-programming)
+- [深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)
 
 ## 相似题目
 

@@ -1,33 +1,22 @@
 
 # @Title: 搜索插入位置 (Search Insert Position)
 # @Author: 2464512446@qq.com
-# @Date: 2019-03-06 11:30:55
-# @Runtime: 28 ms
-# @Memory: 11.1 MB
+# @Date: 2020-12-01 16:32:58
+# @Runtime: 44 ms
+# @Memory: 14 MB
 
-class Solution(object):
-    def searchInsert(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: int
-        """
-        
-        if target in nums:
-            return nums.index(target)
-        else:
-            for i in range(len(nums)):
-                if i == len(nums)-1:
-                    if nums[i] < target:
-                        nums.append(target)
-                        return i+1
-                    if nums[i] > target:
-                        nums.insert(0,target)
-                        return 0
-                    
-                elif nums[i] < target and nums[i+1]>target:
-                    nums.insert(i+1,target)
-                    return i+1
-                elif nums[0] > target:
-                    nums.insert(0,target)
-                    return 0
+class Solution:
+    def searchInsert(self, nums: List[int], target: int) -> int:
+        left,right = 0, len(nums)-1
+        res = len(nums)
+        while left <= right:
+            mid =  left + (right-left)// 2
+            # if mid == target:
+            #     return mid
+            if nums[mid] < target:
+
+                left = mid + 1
+            else:
+                res = mid
+                right = mid - 1
+        return res

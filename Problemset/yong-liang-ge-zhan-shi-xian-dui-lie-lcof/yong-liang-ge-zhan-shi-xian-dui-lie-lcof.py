@@ -1,9 +1,9 @@
 
 # @Title: 用两个栈实现队列 (用两个栈实现队列 LCOF)
 # @Author: 2464512446@qq.com
-# @Date: 2020-03-18 11:42:16
-# @Runtime: 720 ms
-# @Memory: 17.1 MB
+# @Date: 2020-06-30 18:17:16
+# @Runtime: 556 ms
+# @Memory: 16.6 MB
 
 class CQueue:
 

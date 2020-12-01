@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-05-25 17:48:15
 # @Runtime: 68 ms
-# @Memory: 13.5 MB
+# @Memory: 13.2 MB
 
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:

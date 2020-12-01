@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-03-18 16:52:27
 # @Runtime: 36 ms
-# @Memory: 13.6 MB
+# @Memory: 13.2 MB
 
 class Solution:
     def numWays(self, n: int) -> int:

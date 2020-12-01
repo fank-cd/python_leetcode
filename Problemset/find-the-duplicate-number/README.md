@@ -40,5 +40,5 @@
 - [缺失的第一个正数](../first-missing-positive/README.md)
 - [只出现一次的数字](../single-number/README.md)
 - [环形链表 II](../linked-list-cycle-ii/README.md)
-- [缺失数字](../missing-number/README.md)
+- [丢失的数字](../missing-number/README.md)
 - [错误的集合](../set-mismatch/README.md)

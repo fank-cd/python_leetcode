@@ -1,24 +1,17 @@
 
 # @Title: 字母异位词分组 (Group Anagrams)
 # @Author: 2464512446@qq.com
-# @Date: 2019-12-10 14:17:18
-# @Runtime: 88 ms
-# @Memory: 15.7 MB
+# @Date: 2020-11-11 12:21:16
+# @Runtime: 68 ms
+# @Memory: 18.1 MB
 
-class Solution(object):
-    def groupAnagrams(self, strs):
-        """
-        :type strs: List[str]
-        :rtype: List[List[str]]
-        """
-        d= {}
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        res = defaultdict(list)
         for i in strs:
-            tmp = "".join(sorted(i))
-            if tmp not in d:
-                d[tmp] =[]
-            d[tmp].append(i)
-
-        res = []
-        for i in d.values():
-            res.append(i)
-        return res
+            count = [0] * 26
+            for c in i:
+                count[ord(c)-ord('a')] += 1
+            res[tuple(count)].append(i)
+        # print(res)
+        return list(res.values())

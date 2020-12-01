@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-01-03 12:05:41
 # @Runtime: 36 ms
-# @Memory: 12.8 MB
+# @Memory: 12.5 MB
 
 class Solution:
     def sumZero(self, n: int) -> List[int]:

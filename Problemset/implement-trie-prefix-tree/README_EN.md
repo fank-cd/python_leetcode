@@ -35,7 +35,7 @@ trie.search(&quot;app&quot;);     // returns true
 
 ## Similar Questions
 
-- [Add and Search Word - Data structure design](../add-and-search-word-data-structure-design/README_EN.md)
+- [Design Add and Search Words Data Structure](../design-add-and-search-words-data-structure/README_EN.md)
 - [Design Search Autocomplete System](../design-search-autocomplete-system/README_EN.md)
 - [Replace Words](../replace-words/README_EN.md)
 - [Implement Magic Dictionary](../implement-magic-dictionary/README_EN.md)

@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-05-07 17:42:17
 # @Runtime: 44 ms
-# @Memory: 13.8 MB
+# @Memory: 13.4 MB
 
 class Solution:
     def integerBreak(self, n: int) -> int:

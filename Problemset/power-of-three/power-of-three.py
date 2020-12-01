@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-11-12 11:26:18
 # @Runtime: 104 ms
-# @Memory: 11.7 MB
+# @Memory: 11.4 MB
 
 class Solution(object):
     def isPowerOfThree(self, n):

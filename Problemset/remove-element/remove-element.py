@@ -1,28 +1,19 @@
 
 # @Title: 移除元素 (Remove Element)
 # @Author: 2464512446@qq.com
-# @Date: 2019-03-06 10:44:18
-# @Runtime: 40 ms
-# @Memory: 10.7 MB
+# @Date: 2020-07-30 15:31:10
+# @Runtime: 44 ms
+# @Memory: 13.4 MB
 
-class Solution(object):
-    def removeElement(self, nums, val):
-        """
-        :type nums: List[int]
-        :type val: int
-        :rtype: int
-        """
+class Solution:
+    def removeElement(self, nums: List[int], val: int) -> int:
         i = 0
-        n = len(nums)
-        
-        while i < n:
-            if nums[i] == val:
-                nums[i] = nums[n-1]
-                n  -= 1
-                
-            else:
+        for j in range(len(nums)):
+            if nums[j] != val:
+                nums[i] = nums[j]
                 i += 1
-                
-                
-        return n
-                
+
+        return i 
+
+
+

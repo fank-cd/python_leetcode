@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-10-09 23:05:29
 # @Runtime: 844 ms
-# @Memory: 107.8 MB
+# @Memory: 105.3 MB
 
 """
 # Definition for a Node.

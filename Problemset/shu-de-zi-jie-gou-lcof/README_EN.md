@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [面试题26. 树的子结构  LCOF](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/)
+# [剑指 Offer 26. 树的子结构  LCOF](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/)
 
 ## Description
 

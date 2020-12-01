@@ -1,30 +1,13 @@
 
 # @Title: 爬楼梯 (Climbing Stairs)
 # @Author: 2464512446@qq.com
-# @Date: 2019-11-08 16:56:53
-# @Runtime: 24 ms
-# @Memory: 11.8 MB
+# @Date: 2020-11-07 23:28:42
+# @Runtime: 32 ms
+# @Memory: 13.4 MB
 
-class Solution(object):
-#     def climbStairs(self, n):
-#         """
-#         :type n: int
-#         :rtype: int
-#         """
-#         if n ==1:
-#             return 1
-#         if n == 2:
-#             return 2
-        
-#         else:
-#             return self.climbStairs(n-1) + self.climbStairs(n-2)
-        def climbStairs(self, n):
-            i,j = 1,2
-            
-            for _ in range(3,n):
-                i,j = j , i+j
-                
-            if n > 2:
-                return i +j
-            else:
-                return n 
+class Solution:
+    def climbStairs(self, n: int) -> int:
+        a,b = 0 ,1
+        for i in range(n):
+            a,b = b,a+b
+        return b

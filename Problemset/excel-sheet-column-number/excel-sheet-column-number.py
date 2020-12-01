@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-10-22 14:51:31
 # @Runtime: 16 ms
-# @Memory: 11.7 MB
+# @Memory: 11.4 MB
 
 class Solution(object):
     def titleToNumber(self, s):

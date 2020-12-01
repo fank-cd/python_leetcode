@@ -1,41 +1,24 @@
 
 # @Title: 删除链表的倒数第N个节点 (Remove Nth Node From End of List)
 # @Author: 2464512446@qq.com
-# @Date: 2019-03-05 10:13:31
-# @Runtime: 28 ms
-# @Memory: 10.8 MB
+# @Date: 2020-10-24 18:20:52
+# @Runtime: 40 ms
+# @Memory: 13.4 MB
 
-# Definition for singly-linked list.
-# class ListNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
+class Solution:
+    def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
+        dummy = ListNode(0, head)
+        first = head
+        second = dummy
+        for i in range(n):
+            # print(first.val)
+            first = first.next
 
-class Solution(object):
-    def removeNthFromEnd(self, head, n):
-        """
-        :type head: ListNode
-        :type n: int
-        :rtype: ListNode
-        """
-        temp1 = head
-        leng = 0
-        if temp1.next:
-            leng = 1
-        while temp1.next:
-            leng +=1
-            temp1= temp1.next
+        while first:
+            first = first.next
+            second = second.next
         
-        if leng == n :
-            head = head.next
-            return head
-        temp2 = head
-        for i in range(leng-n-1):
-            temp2 = temp2.next
-        temp = temp2.next
-        if temp:
-            temp2.next = temp.next
-        elif not temp:
-            head = None
-        return head
-        
+        second.next = second.next.next
+        return dummy.next
+
+

@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-01-03 11:59:50
 # @Runtime: 64 ms
-# @Memory: 12.7 MB
+# @Memory: 12.4 MB
 
 class Solution:
     def findNumbers(self, nums: List[int]) -> int:

@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-03-18 16:50:48
 # @Runtime: 32 ms
-# @Memory: 13.6 MB
+# @Memory: 13.2 MB
 
 class Solution:
     def fib(self, n: int) -> int:

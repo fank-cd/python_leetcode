@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-11-22 17:21:45
 # @Runtime: 44 ms
-# @Memory: 11.7 MB
+# @Memory: 11.5 MB
 
 class Solution:
     def combinationSum2(self, candidates, target):

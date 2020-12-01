@@ -28,5 +28,5 @@
 ## 相似题目
 
 - [二叉树的前序遍历](../binary-tree-preorder-traversal/README.md)
-- [N叉树的层序遍历](../n-ary-tree-level-order-traversal/README.md)
+- [N 叉树的层序遍历](../n-ary-tree-level-order-traversal/README.md)
 - [N叉树的后序遍历](../n-ary-tree-postorder-traversal/README.md)

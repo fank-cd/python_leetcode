@@ -33,7 +33,7 @@ trie.search(&quot;app&quot;);     // 返回 true</pre>
 
 ## 相似题目
 
-- [添加与搜索单词 - 数据结构设计](../add-and-search-word-data-structure-design/README.md)
+- [添加与搜索单词 - 数据结构设计](../design-add-and-search-words-data-structure/README.md)
 - [设计搜索自动补全系统](../design-search-autocomplete-system/README.md)
 - [单词替换](../replace-words/README.md)
 - [实现一个魔法字典](../implement-magic-dictionary/README.md)

@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-04-28 17:15:08
 # @Runtime: 168 ms
-# @Memory: 15.3 MB
+# @Memory: 14.9 MB
 
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:

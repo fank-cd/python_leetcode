@@ -1,7 +1,7 @@
 
 | [English](README_EN.md) | 简体中文 |
 
-# [面试题10- II. 青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)
+# [剑指 Offer 10- II. 青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)
 
 ## 题目描述
 
@@ -20,6 +20,11 @@
 <pre><strong>输入：</strong>n = 7
 <strong>输出：</strong>21
 </pre>
+
+<p><strong>示例 3：</strong></p>
+
+<pre><strong>输入：</strong>n = 0
+<strong>输出：</strong>1</pre>
 
 <p><strong>提示：</strong></p>
 

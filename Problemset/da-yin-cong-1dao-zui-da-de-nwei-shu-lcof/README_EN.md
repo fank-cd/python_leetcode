@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [面试题17. 打印从1到最大的n位数 LCOF](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)
+# [剑指 Offer 17. 打印从1到最大的n位数 LCOF](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)
 
 ## Description
 

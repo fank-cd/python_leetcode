@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-11-14 14:42:43
 # @Runtime: 20 ms
-# @Memory: 11.8 MB
+# @Memory: 11.6 MB
 
 class Solution(object):
     def trailingZeroes(self, n):

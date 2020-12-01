@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-11-05 17:20:33
 # @Runtime: 44 ms
-# @Memory: 13.9 MB
+# @Memory: 13.5 MB
 
 class Solution:
     def isHappy(self, n: int) -> bool:

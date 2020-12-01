@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-06-09 17:50:14
 # @Runtime: 48 ms
-# @Memory: 17.8 MB
+# @Memory: 17.4 MB
 
 class Solution:
     def exchange(self, nums: List[int]) -> List[int]:

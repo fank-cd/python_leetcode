@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-12-23 17:52:10
 # @Runtime: 188 ms
-# @Memory: 12.5 MB
+# @Memory: 12.2 MB
 
 class Solution(object):
     def numSquares(self, n):

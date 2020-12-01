@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-05-11 17:16:41
 # @Runtime: 44 ms
-# @Memory: 19.2 MB
+# @Memory: 18.8 MB
 
 class Solution:
     def printNumbers(self, n: int) -> List[int]:

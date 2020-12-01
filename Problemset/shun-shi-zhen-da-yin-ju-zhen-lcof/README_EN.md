@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [面试题29. 顺时针打印矩阵  LCOF](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)
+# [剑指 Offer 29. 顺时针打印矩阵  LCOF](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)
 
 ## Description
 

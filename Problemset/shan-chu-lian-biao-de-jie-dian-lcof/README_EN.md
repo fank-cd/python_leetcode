@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [面试题18. 删除链表的节点 LCOF](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
+# [剑指 Offer 18. 删除链表的节点 LCOF](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 
 ## Description
 

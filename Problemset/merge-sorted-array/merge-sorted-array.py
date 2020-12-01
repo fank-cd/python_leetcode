@@ -1,29 +1,24 @@
 
 # @Title: 合并两个有序数组 (Merge Sorted Array)
 # @Author: 2464512446@qq.com
-# @Date: 2019-11-12 11:09:40
-# @Runtime: 28 ms
-# @Memory: 11.7 MB
+# @Date: 2020-11-25 18:03:10
+# @Runtime: 44 ms
+# @Memory: 13.6 MB
 
-class Solution(object):
-    def merge(self, nums1, m, nums2, n):
+class Solution:
+    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
-        :type nums1: List[int]
-        :type m: int
-        :type nums2: List[int]
-        :type n: int
-        :rtype: None Do not return anything, modify nums1 in-place instead.
+        Do not return anything, modify nums1 in-place instead.
         """
-        p,q,i = m-1,n-1,m+n-1
-        while p >=0 and q >=0:
-            if nums1[p] < nums2[q]:
-                nums1[i] = nums2[q]
-                i -=1
-                q -=1
+        p1 = m - 1
+        p2 = n -1 
+        p = m + n -1
+        while p1 >=0 and p2 >=0 :
+            if nums1[p1] > nums2[p2]:
+                nums1[p] = nums1[p1]
+                p1 -= 1
             else:
-                nums1[i] = nums1[p]
-                i -=1
-                p -=1
-        
-        nums1[:q + 1] = nums2[:q + 1]
-
+                nums1[p] = nums2[p2]
+                p2 -= 1
+            p -=1
+        nums1[:p2+1] = nums2[:p2+1]

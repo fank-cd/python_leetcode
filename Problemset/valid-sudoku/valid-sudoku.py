@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-12-13 14:53:41
 # @Runtime: 84 ms
-# @Memory: 11.9 MB
+# @Memory: 11.6 MB
 
 class Solution:
     def isValidSudoku(self, board):

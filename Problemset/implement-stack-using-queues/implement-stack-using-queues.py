@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-03-05 10:48:47
 # @Runtime: 44 ms
-# @Memory: 13.4 MB
+# @Memory: 13.1 MB
 
 class MyStack:
 

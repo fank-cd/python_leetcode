@@ -5,7 +5,7 @@
 
 ## Description
 
-<p>In a array <code>A</code> of size <code>2N</code>, there are <code>N+1</code> unique elements, and exactly one of these elements is repeated N times.</p>
+<p>In a array <code>A</code> of size <code>2N</code>, there are <code>N+1</code> unique elements, and exactly one of these elements is repeated <code>N</code> times.</p>
 
 <p>Return the element repeated <code>N</code> times.</p>
 
@@ -42,11 +42,11 @@
 
 <p><strong>Note:</strong></p>
 
-<ol>
+<ul>
 	<li><code>4 &lt;= A.length &lt;= 10000</code></li>
 	<li><code>0 &lt;= A[i] &lt; 10000</code></li>
 	<li><code>A.length</code> is even</li>
-</ol>
+</ul>
 </div>
 </div>
 </div>

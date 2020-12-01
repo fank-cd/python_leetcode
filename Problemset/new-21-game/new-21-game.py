@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-06-03 17:32:51
 # @Runtime: 100 ms
-# @Memory: 13.9 MB
+# @Memory: 13.6 MB
 
 class Solution:
     def new21Game(self, N: int, K: int, W: int) -> float:

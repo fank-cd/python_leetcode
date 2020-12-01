@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-12-04 18:28:21
 # @Runtime: 68 ms
-# @Memory: 17.4 MB
+# @Memory: 17 MB
 
 # """
 # This is the interface that allows for creating nested lists.

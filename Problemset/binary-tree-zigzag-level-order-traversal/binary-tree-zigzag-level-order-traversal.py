@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-12-18 16:44:53
 # @Runtime: 20 ms
-# @Memory: 12.2 MB
+# @Memory: 12 MB
 
 # Definition for a binary tree node.
 # class TreeNode(object):

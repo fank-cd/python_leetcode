@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-11-29 17:57:08
 # @Runtime: 44 ms
-# @Memory: 11.8 MB
+# @Memory: 11.5 MB
 
 class Solution(object):
     def permuteUnique(self, nums):

@@ -1,34 +1,49 @@
 
 # @Title: 四数之和 (4Sum)
 # @Author: 2464512446@qq.com
-# @Date: 2019-12-17 11:07:53
-# @Runtime: 172 ms
-# @Memory: 16.2 MB
+# @Date: 2020-11-23 17:16:17
+# @Runtime: 132 ms
+# @Memory: 13.4 MB
 
-class Solution(object):
-    def fourSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[List[int]]
-        """
-        # 两两之间当做两数之和来处理
-        d = {}
-        for i in range(len(nums)):
-            for j in range(i + 1, len(nums)):
-                d.setdefault(nums[i] + nums[j], []).append((i, j))
-
-        result = set()
-        ## print(d)
-        for i in range(len(nums)):
-            for j in range(i + 1, len(nums)):
-                for a, b in d.get(target - nums[i] - nums[j], []):  # 两数之和经典步骤
-                    # target-nums[i] -nums[j] 能存在d中，证明存在nums[i] + nums[j] + d中某个key = target
-                    # 因为d中key也是nums[i] + nums[j] 所以条件存在
-                    # 因为可能有重复的选项，所以记录索引去去重
-                    temp = {i, j, a, b}  # 去重
-                    if len(temp) == 4:
-                        result.add(tuple(sorted(nums[t] for t in temp)))  # 去重
-
-        return result
-
+class Solution:
+    def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
+        if len(nums) < 4:
+            return []
+        res = []
+        nums = sorted(nums)
+        for i in range(len(nums)-3):
+            # 1) 去重复
+            if i > 0 and nums[i] == nums[i - 1]:
+                continue
+            # 2) 剪枝第一处，因为i后面位置的元素是递增排序的。
+            if nums[i] + 3*nums[i+1] > target:
+                break
+            # 3) 剪枝第二处，因为i后面位置的元素是递增排序的。
+            if nums[i] + 3*nums[-1] < target:
+                continue
+            for j in range(i + 1, len(nums)-2):
+                # 4) 去重复
+                if j > i + 1 and nums[j] == nums[j - 1]:
+                    continue
+                # 5) 剪枝第三处
+                if nums[i]+nums[j]+2*nums[j+1] > target:
+                    break
+                # 6) 剪枝第四处
+                if nums[i]+nums[j]+2*nums[-1] < target:
+                    continue
+                low, high = j + 1, len(nums) - 1
+                while low < high:
+                    if nums[i] + nums[j] + nums[low] + nums[high] == target:
+                        res.append([nums[i], nums[j], nums[low], nums[high]])
+                        low, high = low + 1, high - 1
+                        # 7) 去重复
+                        while low < high and nums[low] == nums[low - 1]:
+                            low += 1
+                        # 8) 去重复
+                        while low < high and nums[high] == nums[high + 1]:
+                            high -= 1
+                    if nums[i] + nums[j] + nums[low] + nums[high] > target:
+                        high -= 1
+                    if nums[i] + nums[j] + nums[low] + nums[high] < target:
+                        low += 1
+        return res

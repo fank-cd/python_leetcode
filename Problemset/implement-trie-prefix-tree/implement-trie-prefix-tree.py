@@ -1,63 +1,49 @@
 
 # @Title: 实现 Trie (前缀树) (Implement Trie (Prefix Tree))
 # @Author: 2464512446@qq.com
-# @Date: 2019-12-03 15:56:12
-# @Runtime: 120 ms
-# @Memory: 27.9 MB
+# @Date: 2020-11-23 16:37:55
+# @Runtime: 140 ms
+# @Memory: 26.2 MB
 
-class Trie(object):
+class Trie:
 
     def __init__(self):
         """
         Initialize your data structure here.
         """
-        self.lookup = {}
-        
+        self.root = {}
+        self.end = "#"
 
-    def insert(self, word):
+    def insert(self, word: str) -> None:
         """
         Inserts a word into the trie.
-        :type word: str
-        :rtype: None
         """
-        node = self.lookup
-        for i in word:
-            if i not in node:
-                node[i] ={}
-            node = node[i]
-        node['#'] = '#'
+        node = self.root
+        for char in word:
+            node = node.setdefault(char,{})
+        node[self.end] = self.end
 
-    def search(self, word):
+    def search(self, word: str) -> bool:
         """
         Returns if the word is in the trie.
-        :type word: str
-        :rtype: bool
         """
-        node = self.lookup
-        for i in word:
-            if i not in node:
+        node = self.root
+        for char in word:
+            if char not in node:
                 return False
-            node = node[i]
-        if '#' in node:
-            return True
-        return False
+            node = node.setdefault(char,{})
+        return self.end in node
 
-
-    def startsWith(self, prefix):
+    def startsWith(self, prefix: str) -> bool:
         """
         Returns if there is any word in the trie that starts with the given prefix.
-        :type prefix: str
-        :rtype: bool
         """
-        node = self.lookup
-        for i in prefix:
-            if i not in node:
+        node = self.root
+        for char in prefix:
+            if char not in node:
                 return False
-            node = node[i]
+            node = node.setdefault(char,{})
         return True
-        
-
-
 # Your Trie object will be instantiated and called as such:
 # obj = Trie()
 # obj.insert(word)

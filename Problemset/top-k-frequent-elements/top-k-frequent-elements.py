@@ -1,29 +1,22 @@
 
 # @Title: 前 K 个高频元素 (Top K Frequent Elements)
 # @Author: 2464512446@qq.com
-# @Date: 2019-12-12 10:53:25
-# @Runtime: 112 ms
-# @Memory: 15.3 MB
+# @Date: 2020-11-25 17:56:00
+# @Runtime: 48 ms
+# @Memory: 16.4 MB
 
-class Solution(object):
+class Solution:
     def topKFrequent(self, nums, k):
         """
         :type nums: List[int]
         :type k: int
         :rtype: List[int]
-        """
-        from collections import Counter
-        # d = {}
-        # for i in nums:
-        #     if i not in d:
-        #         d[i] = 0
-        #     d[i] +=1
-        # res = []
-
-        result = Counter(nums).most_common(k)
-        # print(result)
+        """ 
+        d = Counter(nums)
+        heap = []
         res = []
-        for k,v in result:
-            res.append(k)
+        for i in d:
+            heapq.heappush(heap,(-d[i],i))
+        for i in range(k):
+            res.append(heapq.heappop(heap)[1])
         return res
-

@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-05-07 12:10:50
 # @Runtime: 108 ms
-# @Memory: 16.1 MB
+# @Memory: 15.8 MB
 
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:

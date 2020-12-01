@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-10-08 16:59:59
 # @Runtime: 24 ms
-# @Memory: 11.8 MB
+# @Memory: 11.5 MB
 
 class Solution(object):
     def findWords(self, words):

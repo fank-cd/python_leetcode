@@ -1,9 +1,9 @@
 
 # @Title: 最长公共前缀 (Longest Common Prefix)
 # @Author: 2464512446@qq.com
-# @Date: 2019-11-19 12:32:21
-# @Runtime: 20 ms
-# @Memory: 11.8 MB
+# @Date: 2020-06-15 11:41:19
+# @Runtime: 40 ms
+# @Memory: 13.2 MB
 
 class Solution(object):
     def longestCommonPrefix(self, strs):

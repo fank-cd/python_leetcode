@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [面试题10- II. 青蛙跳台阶问题  LCOF](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)
+# [剑指 Offer 10- II. 青蛙跳台阶问题  LCOF](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)
 
 ## Description
 

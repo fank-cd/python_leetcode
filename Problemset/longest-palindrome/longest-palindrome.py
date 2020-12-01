@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-03-19 16:00:15
 # @Runtime: 36 ms
-# @Memory: 13.3 MB
+# @Memory: 13 MB
 
 class Solution:
     def longestPalindrome(self, s: str) -> int:

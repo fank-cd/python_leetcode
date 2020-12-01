@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-04-20 12:14:03
 # @Runtime: 20 ms
-# @Memory: 16.6 MB
+# @Memory: 16.2 MB
 
 class Solution(object):
     def findNumberIn2DArray(self, matrix, target):
@@ -25,3 +25,11 @@ class Solution(object):
             else:
                 return True
         return False
+rix[y][x] < target:
+                y += 1
+            else:
+                return True
+
+        return False
+
+

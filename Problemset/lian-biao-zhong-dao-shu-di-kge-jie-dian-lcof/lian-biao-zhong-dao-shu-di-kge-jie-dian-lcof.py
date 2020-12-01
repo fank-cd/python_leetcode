@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-06-09 18:12:04
 # @Runtime: 40 ms
-# @Memory: 13.6 MB
+# @Memory: 13.3 MB
 
 # Definition for singly-linked list.
 # class ListNode:

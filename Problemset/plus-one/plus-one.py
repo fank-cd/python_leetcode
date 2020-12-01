@@ -1,23 +1,15 @@
 
 # @Title: 加一 (Plus One)
 # @Author: 2464512446@qq.com
-# @Date: 2019-11-13 17:31:10
-# @Runtime: 20 ms
-# @Memory: 11.7 MB
+# @Date: 2020-11-11 11:51:11
+# @Runtime: 40 ms
+# @Memory: 13.5 MB
 
-class Solution(object):
-    def plusOne(self, digits):
-        """
-        :type digits: List[int]
-        :rtype: List[int]
-        """
-        num = ""
-        res = []
-        # num+= str(i)+num for i in digits
-        for i in digits:
-            num += str(i)
-        num = str(int(num)+1)
-        for i in num:
-            res.append(int(i))
-
-        return res
+class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]:
+        digits = digits or [0]
+        last = digits.pop()
+        if last == 9:
+            return self.plusOne(digits) + [0]
+        else:
+            return digits + [last+1]

@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-10-08 16:18:32
 # @Runtime: 180 ms
-# @Memory: 18.8 MB
+# @Memory: 18.3 MB
 
 class Solution(object):
     def reverseString(self, s):

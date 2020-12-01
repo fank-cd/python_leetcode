@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-09-28 17:14:52
 # @Runtime: 28 ms
-# @Memory: 11.9 MB
+# @Memory: 11.6 MB
 
 class Solution(object):
     def selfDividingNumbers(self, left, right):

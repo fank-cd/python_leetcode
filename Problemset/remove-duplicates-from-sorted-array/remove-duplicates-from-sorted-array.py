@@ -1,36 +1,16 @@
 
 # @Title: 删除排序数组中的重复项 (Remove Duplicates from Sorted Array)
 # @Author: 2464512446@qq.com
-# @Date: 2019-11-11 14:53:28
-# @Runtime: 68 ms
-# @Memory: 13.8 MB
+# @Date: 2020-07-06 17:42:38
+# @Runtime: 36 ms
+# @Memory: 14.5 MB
 
-class Solution(object):
-    def removeDuplicates(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        if len(nums) == 0:
-            return 0
-        i = 0
-        for j in range(1,len(nums)):
-            if nums[j] !=nums[i]:
-                i +=1
-                nums[i] = nums[j]
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        j  = 0  # 不相等的元素的下一个位置
+        for i in range(1,len(nums)):  # 因为是排序数组，所以可以比较相邻元素
+            if nums[j] != nums[i]:  # 遇到不相等的情况，将不相等的元素移到J+1 的位置，
+                j += 1
+                nums[j] =nums[i]
                 
-        return i +1
-        
-
-#     if (nums.length == 0) return 0;
-#     int i = 0;
-#     for (int j = 1; j < nums.length; j++) {
-#         if (nums[j] != nums[i]) {
-#             i++;
-#             nums[i] = nums[j];
-#         }
-#     }
-#     return i + 1;
-# }
-
-
+        return j + 1  # +1是因为需要算上第一位元素。

@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-11-01 17:29:19
 # @Runtime: 100 ms
-# @Memory: 13.6 MB
+# @Memory: 13.2 MB
 
 class Solution(object):
     def singleNumber(self, nums):

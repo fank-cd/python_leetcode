@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-09-06 17:12:57
 # @Runtime: 32 ms
-# @Memory: 12 MB
+# @Memory: 11.7 MB
 
 class Solution(object):
     def judgeCircle(self, moves):

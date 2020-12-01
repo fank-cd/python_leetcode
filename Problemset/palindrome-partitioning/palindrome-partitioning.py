@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-12-03 11:48:28
 # @Runtime: 92 ms
-# @Memory: 12 MB
+# @Memory: 11.8 MB
 
 class Solution:
     def partition(self, s):

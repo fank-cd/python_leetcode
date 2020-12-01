@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-11-04 15:01:45
 # @Runtime: 40 ms
-# @Memory: 11.6 MB
+# @Memory: 11.3 MB
 
 class Solution(object):
     def romanToInt(self, s):

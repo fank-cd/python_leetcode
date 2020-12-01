@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-03-05 18:32:37
 # @Runtime: 660 ms
-# @Memory: 20.9 MB
+# @Memory: 20.5 MB
 
 class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:

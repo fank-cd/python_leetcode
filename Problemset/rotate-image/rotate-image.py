@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-12-02 18:16:30
 # @Runtime: 24 ms
-# @Memory: 11.8 MB
+# @Memory: 11.5 MB
 
 class Solution(object):
     def rotate(self, matrix):

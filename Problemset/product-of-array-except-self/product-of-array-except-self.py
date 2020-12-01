@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-06-04 12:24:18
 # @Runtime: 52 ms
-# @Memory: 18 MB
+# @Memory: 17.5 MB
 
 class Solution:
     def productExceptSelf(self, nums):

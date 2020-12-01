@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-11-01 16:31:50
 # @Runtime: 20 ms
-# @Memory: 11.7 MB
+# @Memory: 11.4 MB
 
 class Solution(object):
     def generate(self, numRows):

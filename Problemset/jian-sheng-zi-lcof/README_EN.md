@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [面试题14- I. 剪绳子  LCOF](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/)
+# [剑指 Offer 14- I. 剪绳子  LCOF](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/)
 
 ## Description
 

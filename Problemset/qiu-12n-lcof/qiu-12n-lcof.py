@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-06-02 18:02:51
 # @Runtime: 48 ms
-# @Memory: 21.5 MB
+# @Memory: 21 MB
 
 class Solution:
     def sumNums(self, n: int) -> int:

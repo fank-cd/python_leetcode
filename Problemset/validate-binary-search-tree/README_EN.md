@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [0098. Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+# [98. Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)
 
 ## Description
 

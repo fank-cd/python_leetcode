@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-10-14 15:21:13
 # @Runtime: 280 ms
-# @Memory: 12.8 MB
+# @Memory: 12.5 MB
 
 class Solution(object):
     def repeatedNTimes(self, A):

@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-11-29 17:55:36
 # @Runtime: 28 ms
-# @Memory: 11.9 MB
+# @Memory: 11.6 MB
 
 class Solution(object):
     def permute(self, nums):

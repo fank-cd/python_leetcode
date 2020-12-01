@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-12-04 18:01:23
 # @Runtime: 64 ms
-# @Memory: 13.5 MB
+# @Memory: 13.2 MB
 
 class Solution(object):
     def findDuplicate(self, nums):

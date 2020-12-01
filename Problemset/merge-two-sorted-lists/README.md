@@ -5,7 +5,9 @@
 
 ## 题目描述
 
-<p>将两个升序链表合并为一个新的升序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。&nbsp;</p>
+<p>将两个升序链表合并为一个新的 <strong>升序</strong> 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。&nbsp;</p>
+
+<p>&nbsp;</p>
 
 <p><strong>示例：</strong></p>
 
@@ -20,7 +22,7 @@
 
 ## 相似题目
 
-- [合并K个排序链表](../merge-k-sorted-lists/README.md)
+- [合并K个升序链表](../merge-k-sorted-lists/README.md)
 - [合并两个有序数组](../merge-sorted-array/README.md)
 - [排序链表](../sort-list/README.md)
 - [最短单词距离 II](../shortest-word-distance-ii/README.md)

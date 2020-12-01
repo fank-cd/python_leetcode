@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-03-19 18:04:54
 # @Runtime: 56 ms
-# @Memory: 13.6 MB
+# @Memory: 13.3 MB
 
 class Solution:
     def minArray(self, numbers: List[int]) -> int:

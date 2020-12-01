@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-09-06 17:20:04
 # @Runtime: 28 ms
-# @Memory: 11.7 MB
+# @Memory: 11.4 MB
 
 class Solution(object):
     def heightChecker(self, heights):

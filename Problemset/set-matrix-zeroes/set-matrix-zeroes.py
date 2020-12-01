@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-12-16 11:59:44
 # @Runtime: 116 ms
-# @Memory: 12.4 MB
+# @Memory: 12.1 MB
 
 class Solution(object):
     def setZeroes(self, matrix):

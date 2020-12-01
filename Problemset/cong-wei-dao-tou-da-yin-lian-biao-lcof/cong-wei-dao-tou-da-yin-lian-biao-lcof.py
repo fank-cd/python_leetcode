@@ -1,9 +1,9 @@
 
 # @Title: 从尾到头打印链表 (从尾到头打印链表 LCOF)
 # @Author: 2464512446@qq.com
-# @Date: 2020-03-17 15:09:05
-# @Runtime: 24 ms
-# @Memory: 25.5 MB
+# @Date: 2020-07-22 14:27:51
+# @Runtime: 60 ms
+# @Memory: 24.9 MB
 
 # Definition for singly-linked list.
 # class ListNode:

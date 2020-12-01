@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-11-14 11:56:12
 # @Runtime: 248 ms
-# @Memory: 12.1 MB
+# @Memory: 11.8 MB
 
 class Solution(object):
     def firstUniqChar(self, s):

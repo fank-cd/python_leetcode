@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-09-28 16:44:11
 # @Runtime: 68 ms
-# @Memory: 13 MB
+# @Memory: 12.7 MB
 
 class Solution(object):
     def diStringMatch(self, S):

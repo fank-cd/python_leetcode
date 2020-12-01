@@ -1,43 +1,28 @@
 
 # @Title: 反转链表 (Reverse Linked List)
 # @Author: 2464512446@qq.com
-# @Date: 2020-04-20 17:19:13
-# @Runtime: 44 ms
-# @Memory: 14.6 MB
+# @Date: 2020-11-08 00:00:23
+# @Runtime: 36 ms
+# @Memory: 14.4 MB
 
 # Definition for singly-linked list.
-# class ListNode:
+# class ListNode(object):
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
 
-class Solution:
-    def reverseList(self, head: ListNode) -> ListNode:
-
-        #         巧妙利用python的多元赋值
-#         多元赋值的时候，右边的值不会随着赋值而改变
-#         p, rev = head, None
-#         while p:
-#             rev, rev.next, p = p, rev, p.next
-#         return rev
-
-        # stack = [None]
-        # while p:
-        #     stack.append(p)
-        #     p = p.next
-        # head = stack.pop()
-        # p = head
-        # while p:
-        #     p.next = stack.pop()
-        #     p = p.next
-        # return head
-
-        curr,prev = head, None
+class Solution(object):
+    def reverseList(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        if not head:
+            return None
+        perv,curr = None,head
         while curr:
             temp = curr.next
-            # print(temp)
-            curr.next = prev
-            # prev = curr
-            # curr = temp
-            prev,curr = curr,temp
-        return prev
+            curr.next = perv
+            perv,curr = curr,temp
+        return perv
+            

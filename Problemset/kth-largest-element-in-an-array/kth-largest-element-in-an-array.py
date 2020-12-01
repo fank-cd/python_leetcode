@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-12-10 11:42:45
 # @Runtime: 56 ms
-# @Memory: 12.4 MB
+# @Memory: 12.1 MB
 
 class Solution(object):
     def findKthLargest(self, nums, k):

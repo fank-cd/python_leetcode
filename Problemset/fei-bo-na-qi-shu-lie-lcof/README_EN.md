@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [面试题10- I. 斐波那契数列  LCOF](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)
+# [剑指 Offer 10- I. 斐波那契数列  LCOF](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)
 
 ## Description
 

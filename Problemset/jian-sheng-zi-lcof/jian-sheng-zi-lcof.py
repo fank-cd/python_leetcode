@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-05-08 16:02:03
 # @Runtime: 52 ms
-# @Memory: 13.5 MB
+# @Memory: 13.1 MB
 
 class Solution:
     def cuttingRope(self, n: int) -> int:

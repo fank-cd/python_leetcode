@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-03-19 18:26:54
 # @Runtime: 56 ms
-# @Memory: 13.7 MB
+# @Memory: 13.4 MB
 
 class Solution:
     def findMin(self, nums: List[int]) -> int:

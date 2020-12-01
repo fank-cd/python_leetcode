@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-03-17 12:14:32
 # @Runtime: 44 ms
-# @Memory: 18.2 MB
+# @Memory: 17.7 MB
 
 class Solution:
     def searchMatrix(self, matrix, target):

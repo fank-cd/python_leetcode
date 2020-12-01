@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [面试题40. 最小的k个数  LCOF](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)
+# [剑指 Offer 40. 最小的k个数  LCOF](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)
 
 ## Description
 

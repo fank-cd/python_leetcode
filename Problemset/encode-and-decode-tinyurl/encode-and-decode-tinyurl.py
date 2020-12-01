@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-07-16 10:44:52
 # @Runtime: 36 ms
-# @Memory: 11.7 MB
+# @Memory: 11.4 MB
 
 class Codec:
     def __init__(self):

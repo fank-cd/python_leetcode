@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-09-29 17:30:57
 # @Runtime: 76 ms
-# @Memory: 12.8 MB
+# @Memory: 12.5 MB
 
 class Solution(object):
     def peakIndexInMountainArray(self, A):

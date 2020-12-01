@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-10-08 17:17:35
 # @Runtime: 72 ms
-# @Memory: 12.4 MB
+# @Memory: 12.1 MB
 
 # class Solution(object):
 #     def sortArrayByParity(self, A):

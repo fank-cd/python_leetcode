@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [面试题07. 重建二叉树 LCOF](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/)
+# [剑指 Offer 07. 重建二叉树 LCOF](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/)
 
 ## Description
 

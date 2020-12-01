@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-10-08 16:23:43
 # @Runtime: 368 ms
-# @Memory: 14.1 MB
+# @Memory: 13.8 MB
 
 class Solution(object):
     def arrayPairSum(self, nums):

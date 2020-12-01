@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [面试题15. 二进制中1的个数 LCOF](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)
+# [剑指 Offer 15. 二进制中1的个数 LCOF](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)
 
 ## Description
 

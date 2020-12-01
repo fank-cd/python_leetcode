@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2019-11-14 11:24:41
 # @Runtime: 48 ms
-# @Memory: 14.6 MB
+# @Memory: 14.3 MB
 
 class Solution:
     def isPalindrome(self, s: str) -> bool:

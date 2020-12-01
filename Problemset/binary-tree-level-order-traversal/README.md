@@ -41,5 +41,5 @@
 - [二叉树的最小深度](../minimum-depth-of-binary-tree/README.md)
 - [二叉树的垂直遍历](../binary-tree-vertical-order-traversal/README.md)
 - [二叉树的层平均值](../average-of-levels-in-binary-tree/README.md)
-- [N叉树的层序遍历](../n-ary-tree-level-order-traversal/README.md)
+- [N 叉树的层序遍历](../n-ary-tree-level-order-traversal/README.md)
 - [二叉树的堂兄弟节点](../cousins-in-binary-tree/README.md)

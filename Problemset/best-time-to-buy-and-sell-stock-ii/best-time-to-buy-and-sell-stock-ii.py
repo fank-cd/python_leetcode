@@ -1,22 +1,14 @@
 
 # @Title: 买卖股票的最佳时机 II (Best Time to Buy and Sell Stock II)
 # @Author: 2464512446@qq.com
-# @Date: 2019-11-04 18:08:17
-# @Runtime: 84 ms
-# @Memory: 12.6 MB
+# @Date: 2020-11-16 16:25:23
+# @Runtime: 80 ms
+# @Memory: 14.7 MB
 
-class Solution(object):
-    def maxProfit(self, prices):
-        """
-        :type prices: List[int]
-        :rtype: int
-        """
-        ans = 0
-        
-        for i in range(len(prices)-1):
-            differ = prices[i+1] - prices[i]
-            if differ >0:
-                ans +=differ
-                
-        return ans
-            
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        res = 0
+        for i in range(1,len(prices)):
+            if prices[i] > prices[i-1]:
+                res += prices[i] - prices[i-1]
+        return res

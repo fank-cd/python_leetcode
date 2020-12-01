@@ -1,7 +1,7 @@
 
 | [English](README_EN.md) | 简体中文 |
 
-# [0278. 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/)
+# [278. 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/)
 
 ## 题目描述
 

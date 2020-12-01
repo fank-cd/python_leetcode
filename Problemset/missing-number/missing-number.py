@@ -1,9 +1,9 @@
 
-# @Title: 缺失数字 (Missing Number)
+# @Title: 丢失的数字 (Missing Number)
 # @Author: 2464512446@qq.com
 # @Date: 2019-11-05 17:42:38
 # @Runtime: 140 ms
-# @Memory: 12.5 MB
+# @Memory: 12.2 MB
 
 class Solution(object):
     def missingNumber(self, nums):

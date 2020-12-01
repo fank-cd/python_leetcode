@@ -3,7 +3,7 @@
 # @Author: 2464512446@qq.com
 # @Date: 2020-03-18 17:34:40
 # @Runtime: 32 ms
-# @Memory: 13.6 MB
+# @Memory: 13.3 MB
 
 class Solution:
     def isRectangleOverlap(self, rec1: List[int], rec2: List[int]) -> bool:

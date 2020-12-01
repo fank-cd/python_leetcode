@@ -1,7 +1,7 @@
 
 | English | [简体中文](README.md) |
 
-# [面试题16. 数值的整数次方 LCOF](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)
+# [剑指 Offer 16. 数值的整数次方 LCOF](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)
 
 ## Description
 

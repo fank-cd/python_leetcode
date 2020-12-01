@@ -1,26 +1,39 @@
 
 # @Title: 回文链表 (Palindrome Linked List)
 # @Author: 2464512446@qq.com
-# @Date: 2019-11-19 10:33:55
-# @Runtime: 92 ms
-# @Memory: 31 MB
+# @Date: 2020-10-23 22:03:59
+# @Runtime: 76 ms
+# @Memory: 23.2 MB
 
 # Definition for singly-linked list.
-# class ListNode(object):
+# class ListNode:
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
 
-class Solution(object):
-    def isPalindrome(self, head):
-        """
-        :type head: ListNode
-        :rtype: bool
-        """
+class Solution:
+    def isPalindrome(self, head: ListNode) -> bool:
+        slow,fast = head,head
 
-        # 思路2： 快慢指针找到中间链表，然后逆序后半部分
-        res = []
-        while head:
-            res.append(head.val)
-            head = head.next
-        return res == res[::-1]
+        while True:
+            if not fast or not fast.next:
+                break 
+            slow,fast = slow.next,fast.next.next
+
+        fast = slow
+        prev,curr = None,fast
+        while curr:
+            temp = curr.next
+            curr.next = prev
+
+            prev,curr = curr,temp
+
+        fast = prev
+        slow = head
+        # print(fast,slow)
+        while fast:
+            # print(fast,slow)
+            if slow.val != fast.val:
+                return False
+            slow,fast = slow.next,fast.next
+        return True 
