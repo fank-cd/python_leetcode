@@ -20,3 +20,10 @@ class Solution:
         for i in range(k):
             res.append(heapq.heappop(heap)[1])
         return res
+s).most_common(k)
+        # print(result)
+        res = []
+        for k,v in result:
+            res.append(k)
+        return res
+

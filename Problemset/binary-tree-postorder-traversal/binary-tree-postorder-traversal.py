@@ -25,26 +25,3 @@ class Solution:
             cur = stack.pop()
             cur = cur.left
         return res[::-1]
-  #     self.post(root.left,res)
-    #     self.post(root.right,res)
-    #     res.append(root.val)
-        # 遍历写法
-        if not root:
-            return []
-        res = []
-        stack = [(root,False)]
-        while stack:
-            cur,visted = stack.pop()
-            if visted:
-                res.append(cur.val)
-            else:
-                stack.append((cur,True))
-                if cur.right:
-                    stack.append((cur.right,False))
-                if cur.left:
-                    stack.append((cur.left,False))
-             
-        return res
-
-
-

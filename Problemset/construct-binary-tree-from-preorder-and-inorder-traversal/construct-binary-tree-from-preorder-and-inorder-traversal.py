@@ -23,3 +23,5 @@ class Solution:
         root.left = self.buildTree(preorder=preorder[1:root_index+1],inorder=inorder[:root_index])
         root.right = self.buildTree(preorder=preorder[root_index+1:],inorder=inorder[root_index+1:])
         return root
+ndex+1:])
+        return root

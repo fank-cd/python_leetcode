@@ -18,3 +18,9 @@ class Solution:
                 if temp in map_d:
                     count += map_d[temp]
         return count
+        for d in D:
+                s = -(c + d)
+                if s in ab_map:
+                    count += ab_map[s]
+        
+        return count

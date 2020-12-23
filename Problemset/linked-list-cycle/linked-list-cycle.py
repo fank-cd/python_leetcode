@@ -21,16 +21,3 @@ class Solution:
             if fast == slow:
                 return True
         return False
-d.next:
-        #     return False
-        # return True
-
-        if not isinstance(head,ListNode):
-            return False
-        p1, p2= head, head.next
-        while p1 and p2 and p2.next:
-            if p1 == p2:
-                return True
-            p1 = p1.next
-            p2 = p2.next.next
-        return False

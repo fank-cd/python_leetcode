@@ -21,6 +21,8 @@
 
 ## 相关话题
 
+- [深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)
+- [动态规划](https://leetcode-cn.com/tag/dynamic-programming)
 - [回溯算法](https://leetcode-cn.com/tag/backtracking)
 
 ## 相似题目

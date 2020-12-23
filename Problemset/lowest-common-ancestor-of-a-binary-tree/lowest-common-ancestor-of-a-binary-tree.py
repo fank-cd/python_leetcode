@@ -27,3 +27,11 @@ class Solution:
             return left
         
         return root
+= current_node == p or current_node == q
+            if mid + left + right >= 2:
+                self.ans = current_node
+            return mid or left or right
+        recurse_tree(root)
+        return self.ans
+
+

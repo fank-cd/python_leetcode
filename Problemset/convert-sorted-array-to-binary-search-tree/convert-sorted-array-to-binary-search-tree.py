@@ -25,3 +25,6 @@ class Solution:
             root_node.right = self.sortedArrayToBST(nums2)
 
             return root_node
+     root_node.right = self.sortedArrayToBST(nums2)
+
+            return root_node

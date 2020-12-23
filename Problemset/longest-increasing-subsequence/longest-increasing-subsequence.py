@@ -1,5 +1,5 @@
 
-# @Title: 最长上升子序列 (Longest Increasing Subsequence)
+# @Title: 最长递增子序列 (Longest Increasing Subsequence)
 # @Author: 2464512446@qq.com
 # @Date: 2020-12-01 15:05:34
 # @Runtime: 60 ms

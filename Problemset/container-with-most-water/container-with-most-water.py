@@ -17,3 +17,9 @@ class Solution:
             else:
                 p += 1
         return  res
+ height[p]:
+                p +=1
+            else:
+                q -=1
+
+        return maxArea

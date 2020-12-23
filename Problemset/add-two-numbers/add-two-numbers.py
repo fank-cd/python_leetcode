@@ -1,15 +1,10 @@
 
 # @Title: 两数相加 (Add Two Numbers)
 # @Author: 2464512446@qq.com
-# @Date: 2019-07-09 15:37:48
-# @Runtime: 104 ms
-# @Memory: 13.7 MB
+# @Date: 2020-12-23 11:39:29
+# @Runtime: 80 ms
+# @Memory: 14.8 MB
 
-#
-# @lc app=leetcode.cn id=2 lang=python3
-#
-# [2] 两数相加
-#
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -18,66 +13,14 @@
 
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
-        """
-        直接链表相加来解决的，方法比较蠢，需要考虑几种情况
-        1、l1 或者l2 为空的情况
-        2、相加进位后再相加再次进位的情况
-        3、只有一边有值得情况
-        代码写的比较粗糙，我认为是体力活
-        """
-        q = l1
-        p = l2
-        r = ListNode(None)
-        head = r
-        carry = 0
-        while (q or p) or carry ==1:
-            if q and p:
-                print(carry)
-                q_tmp = q.val
-                p_tmp = p.val
-                tmp = (q_tmp+p_tmp+carry) %10
-                r.val = tmp
-                carry = 0
-
-
-                carry += 1 if tmp < (q_tmp+p_tmp) else 0
-
-                if q.next or p.next:
-                    r.next = ListNode(None)
-                    r = r.next
-                q = q.next
-                p = p.next
-
-            elif q and not p:
-                tmp = (q.val+carry) %10
-                r.val = tmp
-                carry = 0
-                carry += 1 if tmp < (q.val+carry) else 0
-                q = q.next
-                if q or p:
-                    r.next = ListNode(None)
-                    r = r.next
-               
-
-            elif not q and p:
-                tmp = (p.val+carry) %10
-                r.val = tmp
-                carry = 0
-                carry += 1 if tmp < (p.val+carry) else 0
-
-                p = p.next
-                if q or p:
-                    r.next = ListNode(None)
-                    r = r.next
-
-
-            elif not q and not p:
-                print(carry)
-                r.next = ListNode(None)
-                r = r.next
-                r.val = carry
-                carry = 0
-            
-        return head
-        
-
+        dummy = ListNode(None)
+        p = dummy
+        s = 0
+        while l1 or l2 or s:
+            s += (l1.val if l1 else 0) + (l2.val if l2 else 0)
+            p.next = ListNode(s % 10)
+            s = s // 10
+            p = p.next
+            l1 = l1.next if l1 else None
+            l2 = l2.next if l2 else None
+        return dummy.next

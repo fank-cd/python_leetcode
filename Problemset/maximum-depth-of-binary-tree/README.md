@@ -33,4 +33,4 @@
 
 - [平衡二叉树](../balanced-binary-tree/README.md)
 - [二叉树的最小深度](../minimum-depth-of-binary-tree/README.md)
-- [N叉树的最大深度](../maximum-depth-of-n-ary-tree/README.md)
+- [N 叉树的最大深度](../maximum-depth-of-n-ary-tree/README.md)

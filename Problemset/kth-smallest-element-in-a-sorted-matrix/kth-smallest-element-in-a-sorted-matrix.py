@@ -19,3 +19,25 @@ class Solution:
         
         return heapq.heappop(pq)[0]
 
+ mid = (left+right) /2
+            count  = self.find(matrix,mid,row,col)
+            if count < k:
+                left = mid +1
+            else:
+                right = mid
+        
+        return right
+
+        
+    def find(self,matrix,mid,row,col):
+        count  = 0
+        i,j= row-1,0
+        while(i >= 0 and j < col):
+            if matrix[i][j] <= mid:
+                count += i+1
+                j += 1
+            else:
+                i -= 1
+
+        return count
+

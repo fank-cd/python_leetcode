@@ -41,9 +41,10 @@
 	<li><code>digits[i]</code> is a digit in the range <code>[&#39;2&#39;, &#39;9&#39;]</code>.</li>
 </ul>
 
-
 ## Related Topics
 
+- [Depth-first Search](https://leetcode-cn.com/tag/depth-first-search)
+- [Recursion](https://leetcode-cn.com/tag/recursion)
 - [String](https://leetcode-cn.com/tag/string)
 - [Backtracking](https://leetcode-cn.com/tag/backtracking)
 

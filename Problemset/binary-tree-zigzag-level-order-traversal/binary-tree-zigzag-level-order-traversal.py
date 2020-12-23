@@ -1,53 +1,36 @@
 
-# @Title: 二叉树的锯齿形层次遍历 (Binary Tree Zigzag Level Order Traversal)
+# @Title: 二叉树的锯齿形层序遍历 (Binary Tree Zigzag Level Order Traversal)
 # @Author: 2464512446@qq.com
-# @Date: 2019-12-18 16:44:53
-# @Runtime: 20 ms
-# @Memory: 12 MB
+# @Date: 2020-12-22 09:46:44
+# @Runtime: 44 ms
+# @Memory: 14.9 MB
 
 # Definition for a binary tree node.
-# class TreeNode(object):
+# class TreeNode:
 #     def __init__(self, x):
 #         self.val = x
 #         self.left = None
 #         self.right = None
 
-class Solution(object):
-    def zigzagLevelOrder(self, root):
-        """
-        :type root: TreeNode
-        :rtype: List[List[int]]
-        """
-                
-        if not root:
-            return None
+class Solution:
+    def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
         res = []
-        stack1 = [root]
-        stack2 = []
-        while stack1 or stack2:
-            cur_list  = []
-            if stack1:
-                while stack1:
-                    cur = stack1.pop()
-                    cur_list.append(cur.val)
-                    if cur.left:
-                        stack2.append(cur.left)
-                    if cur.right:
-                        stack2.append(cur.right)
-                
-
-
+        if not root:
+            return res
+        stack = [root]
+        index = True
+        while stack:
+            level = []
+            index = not index
+            for i in range(len(stack)):
+                root = stack.pop(0)
+                level.append(root.val)
+                if root.left:
+                    stack.append(root.left)
+                if root.right:
+                    stack.append(root.right)
+            if index:
+                res.append(level[::-1])
             else:
-                while stack2:
-                    cur = stack2.pop()
-                    cur_list.append(cur.val)
-                    if cur.right:
-                        stack1.append(cur.right)
-                
-                    if cur.left:
-                        stack1.append(cur.left)
-            res.append(cur_list)
-
+                res.append(level)
         return res
-
-

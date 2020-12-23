@@ -15,7 +15,3 @@ class Solution:
                     return nums[i]
                 nums[nums[i]],nums[i] = nums[i],nums[nums[i]]
 
-�换和是位置和值对应的，这时候出现重复值，可以返回了
-                    return nums[i]
-                # nums[i],nums[nums[i]] = nums[nums[i]],nums[i]  # 左变右不变，这样是不行的
-                nums[nums[i]],nums[i] = nums[i],nums[nums[i]]

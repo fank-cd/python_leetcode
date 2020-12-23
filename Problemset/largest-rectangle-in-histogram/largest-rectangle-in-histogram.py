@@ -20,3 +20,8 @@ class Solution:
         return res
 
 
+eight*cur_width,res)
+            stack.append(i)
+
+        return res
+

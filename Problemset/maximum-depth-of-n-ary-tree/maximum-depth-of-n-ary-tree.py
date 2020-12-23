@@ -1,5 +1,5 @@
 
-# @Title: N叉树的最大深度 (Maximum Depth of N-ary Tree)
+# @Title: N 叉树的最大深度 (Maximum Depth of N-ary Tree)
 # @Author: 2464512446@qq.com
 # @Date: 2019-10-09 23:05:29
 # @Runtime: 844 ms

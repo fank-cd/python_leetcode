@@ -25,31 +25,3 @@ class Solution:
             cur = stack.pop()
             cur = cur.right
         return res
-res.append(cur.val)
-            else:
-                if cur.right:
-                    stack.append((cur.right,False))
-                if cur.left:
-                    stack.append((cur.left,False))
-                stack.append((cur,True))
-
-        return res
-
-
-
-
-    # def preorderTraversal(self, root):
-    #     """
-    #     :type root: TreeNode
-    #     :rtype: List[int]
-    #     """
-    #     递归写法
-    #     res = []
-    #     self.pre(root,res)
-    #     return res
-    # def pre(self,root,res):
-    #     if root is None:
-    #         return None
-    #     res.append(root.val)
-    #     self.pre(root.left,res)
-    #     self.pre(root.right,res)
