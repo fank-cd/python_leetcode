@@ -1,9 +1,9 @@
 
 # @Title: 分发饼干 (Assign Cookies)
 # @Author: 2464512446@qq.com
-# @Date: 2020-11-16 16:31:53
-# @Runtime: 64 ms
-# @Memory: 15.1 MB
+# @Date: 2020-12-25 10:05:16
+# @Runtime: 72 ms
+# @Memory: 16 MB
 
 class Solution:
     def findContentChildren(self, g: List[int], s: List[int]) -> int:
