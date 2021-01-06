@@ -4,8 +4,8 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/用户-fank_cd-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/已解决-313/1918-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/简单-164-green.svg?" alt="">
+    <img src="https://img.shields.io/badge/已解决-315/1918-blue.svg?" alt="">
+    <img src="https://img.shields.io/badge/简单-165-green.svg?" alt="">
     <img src="https://img.shields.io/badge/中等-129-orange.svg?" alt="">
     <img src="https://img.shields.io/badge/困难-20-red.svg?" alt="">
 </p>
@@ -178,6 +178,7 @@
 |412|[Fizz Buzz](Problemset/fizz-buzz/README.md)|[Python](Problemset/fizz-buzz/fizz-buzz.py)<br>[Python3](Problemset/fizz-buzz/fizz-buzz.py)|65.4%|简单||
 |409|[最长回文串](Problemset/longest-palindrome/README.md)|[Python3](Problemset/longest-palindrome/longest-palindrome.py)|55.3%|简单|[哈希表](https://leetcode-cn.com/tag/hash-table)|
 |406|[根据身高重建队列](Problemset/queue-reconstruction-by-height/README.md)|[Python3](Problemset/queue-reconstruction-by-height/queue-reconstruction-by-height.py)|71.8%|中等|[贪心算法](https://leetcode-cn.com/tag/greedy)|
+|389|[找不同](Problemset/find-the-difference/README.md)|[Python](Problemset/find-the-difference/find-the-difference.py)<br>[Python3](Problemset/find-the-difference/find-the-difference.py)|51.1%|简单|[哈希表](https://leetcode-cn.com/tag/hash-table)<br>[字符串](https://leetcode-cn.com/tag/string)|
 |387|[字符串中的第一个唯一字符](Problemset/first-unique-character-in-a-string/README.md)|[Python](Problemset/first-unique-character-in-a-string/first-unique-character-in-a-string.py)<br>[Python3](Problemset/first-unique-character-in-a-string/first-unique-character-in-a-string.py)|51.1%|简单|[哈希表](https://leetcode-cn.com/tag/hash-table)<br>[字符串](https://leetcode-cn.com/tag/string)|
 |378|[有序矩阵中第K小的元素](Problemset/kth-smallest-element-in-a-sorted-matrix/README.md)|[Python](Problemset/kth-smallest-element-in-a-sorted-matrix/kth-smallest-element-in-a-sorted-matrix.py)<br>[Python3](Problemset/kth-smallest-element-in-a-sorted-matrix/kth-smallest-element-in-a-sorted-matrix.py)|63.0%|中等|[堆](https://leetcode-cn.com/tag/heap)<br>[二分查找](https://leetcode-cn.com/tag/binary-search)|
 |371|[两整数之和](Problemset/sum-of-two-integers/README.md)|[Python](Problemset/sum-of-two-integers/sum-of-two-integers.py)|57.0%|简单|[位运算](https://leetcode-cn.com/tag/bit-manipulation)|
